@@ -28,16 +28,16 @@ export default function Header() {
   return (
     <>
       <header
-        className="fixed top-0 left-0 right-0 z-50 bg-white/98 backdrop-blur-md shadow-sm border-b border-gray-200 transition-all duration-200 py-2.5 sm:py-3"
+        className="fixed top-0 left-0 right-0 z-50 bg-white/98 backdrop-blur-md shadow-2xs border-b border-gray-200 transition-all duration-200 py-1 sm:py-1.5"
       >
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-14 sm:h-16">
+          <div className="flex items-center justify-between h-13 sm:h-14">
             {/* Official Transparent Brand Logo */}
-            <Link href="/" className="flex items-center gap-2 flex-shrink-0 group py-1" aria-label="Indra Properties & Enterprises Home">
+            <Link href="/" className="flex items-center flex-shrink-0 group" aria-label="Indra Properties & Enterprises Home">
               <img
                 src="/images/logo.png"
                 alt="Indra Properties & Enterprises - For Your Generation"
-                className="h-10 sm:h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02]"
+                className="h-7 sm:h-8 md:h-[35px] w-auto max-h-9 object-contain transition-transform duration-200 group-hover:scale-105"
               />
             </Link>
 
@@ -134,7 +134,7 @@ export default function Header() {
                 <img
                   src="/images/logo.png"
                   alt="Indra Properties & Enterprises - For Your Generation"
-                  className="h-9 sm:h-10 w-auto object-contain"
+                  className="h-7 sm:h-8 w-auto max-h-8 object-contain"
                 />
               </Link>
               <button

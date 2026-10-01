@@ -98,11 +98,11 @@ export default function ContactPage() {
           {/* Agency Details Card */}
           <div className="lg:col-span-5 bg-charcoal text-white rounded-3xl p-8 flex flex-col justify-between shadow-xl">
             <div>
-              <div className="mb-5">
+              <div className="mb-4">
                 <img
                   src="/images/logo-white.png"
                   alt="Indra Properties & Enterprises - For Your Generation"
-                  className="h-11 sm:h-12 w-auto object-contain"
+                  className="h-8 sm:h-9 w-auto max-h-9 object-contain"
                 />
               </div>
 

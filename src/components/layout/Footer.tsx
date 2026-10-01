@@ -92,11 +92,11 @@ export default function Footer() {
           {/* Brand & Address Column */}
           <div className="col-span-2 md:col-span-3 lg:col-span-2">
             {/* Brand Logo */}
-            <Link href="/" className="inline-block mb-5 group" aria-label="Indra Properties & Enterprises Home">
+            <Link href="/" className="inline-block mb-4 group" aria-label="Indra Properties & Enterprises Home">
               <img
                 src="/images/logo-white.png"
                 alt="Indra Properties & Enterprises - For Your Generation"
-                className="h-12 sm:h-14 w-auto object-contain transition-opacity duration-200 group-hover:opacity-90"
+                className="h-9 sm:h-10 w-auto max-h-10 object-contain transition-opacity duration-200 group-hover:opacity-90"
               />
             </Link>
 
