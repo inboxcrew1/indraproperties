@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Building2, Phone, Mail, MapPin, MessageSquare, ArrowUpRight } from 'lucide-react'
+import { Phone, Mail, MapPin, MessageSquare, ArrowUpRight } from 'lucide-react'
 
 const footerLinks = {
   properties: [
@@ -91,18 +91,13 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
           {/* Brand & Address Column */}
           <div className="col-span-2 md:col-span-3 lg:col-span-2">
-            <Link href="/" className="flex items-center gap-2.5 mb-5">
-              <div className="w-10 h-10 bg-emerald rounded-xl flex items-center justify-center">
-                <Building2 size={22} className="text-white" />
-              </div>
-              <div>
-                <span className="text-lg font-bold uppercase tracking-tight block leading-none">
-                  Indra Properties
-                </span>
-                <span className="text-[10px] font-semibold text-emerald-light tracking-widest uppercase">
-                  &amp; Enterprises
-                </span>
-              </div>
+            {/* Brand Logo */}
+            <Link href="/" className="inline-block mb-5 group" aria-label="Indra Properties & Enterprises Home">
+              <img
+                src="/images/logo-white.png"
+                alt="Indra Properties & Enterprises - For Your Generation"
+                className="h-12 sm:h-14 w-auto object-contain transition-opacity duration-200 group-hover:opacity-90"
+              />
             </Link>
 
             <p className="text-gray-400 text-xs sm:text-sm leading-relaxed mb-6 max-w-sm">

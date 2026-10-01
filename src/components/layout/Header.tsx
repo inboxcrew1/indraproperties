@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { Heart, Menu, X, Building2, Phone, MessageSquare } from 'lucide-react'
+import { Heart, Menu, X, Phone, MessageSquare } from 'lucide-react'
 
 const navLinks = [
   { label: 'Home', href: '/' },
@@ -32,19 +32,13 @@ export default function Header() {
       >
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-14 sm:h-16">
-            {/* Logo */}
-            <Link href="/" className="flex items-center gap-2.5 flex-shrink-0 group">
-              <div className="w-10 h-10 rounded-xl bg-emerald flex items-center justify-center shadow-md group-hover:bg-emerald-dark transition-all duration-200">
-                <Building2 size={22} className="text-white" />
-              </div>
-              <div className="flex flex-col">
-                <span className="text-base sm:text-xl font-extrabold tracking-tight leading-none uppercase text-gray-900 group-hover:text-emerald transition-colors">
-                  Indra Properties
-                </span>
-                <span className="text-[10px] sm:text-xs font-bold tracking-widest uppercase text-emerald-dark mt-0.5">
-                  &amp; Enterprises
-                </span>
-              </div>
+            {/* Official Transparent Brand Logo */}
+            <Link href="/" className="flex items-center gap-2 flex-shrink-0 group py-1" aria-label="Indra Properties & Enterprises Home">
+              <img
+                src="/images/logo.png"
+                alt="Indra Properties & Enterprises - For Your Generation"
+                className="h-10 sm:h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02]"
+              />
             </Link>
 
             {/* Desktop Navigation (visible from lg: 1024px and up) */}
@@ -135,18 +129,13 @@ export default function Header() {
                 href="/"
                 onClick={() => setMobileMenuOpen(false)}
                 className="flex items-center gap-2"
+                aria-label="Indra Properties & Enterprises Home"
               >
-                <div className="w-9 h-9 bg-emerald rounded-lg flex items-center justify-center">
-                  <Building2 size={20} className="text-white" />
-                </div>
-                <div>
-                  <div className="text-sm font-extrabold text-gray-900 uppercase leading-none">
-                    Indra Properties
-                  </div>
-                  <div className="text-[10px] font-bold text-emerald-dark tracking-wider uppercase mt-0.5">
-                    &amp; Enterprises
-                  </div>
-                </div>
+                <img
+                  src="/images/logo.png"
+                  alt="Indra Properties & Enterprises - For Your Generation"
+                  className="h-9 sm:h-10 w-auto object-contain"
+                />
               </Link>
               <button
                 onClick={() => setMobileMenuOpen(false)}

@@ -98,14 +98,12 @@ export default function ContactPage() {
           {/* Agency Details Card */}
           <div className="lg:col-span-5 bg-charcoal text-white rounded-3xl p-8 flex flex-col justify-between shadow-xl">
             <div>
-              <div className="flex items-center gap-2 mb-4">
-                <div className="w-8 h-8 rounded-lg bg-emerald flex items-center justify-center">
-                  <Building2 size={18} className="text-white" />
-                </div>
-                <div>
-                  <h3 className="font-bold text-base uppercase leading-none">Indra Properties</h3>
-                  <span className="text-[10px] text-emerald-light uppercase tracking-widest font-semibold">&amp; Enterprises</span>
-                </div>
+              <div className="mb-5">
+                <img
+                  src="/images/logo-white.png"
+                  alt="Indra Properties & Enterprises - For Your Generation"
+                  className="h-11 sm:h-12 w-auto object-contain"
+                />
               </div>
 
               <p className="text-xs text-gray-300 leading-relaxed mb-6 font-light">
