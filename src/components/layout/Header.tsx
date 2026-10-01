@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { Search, Heart, Menu, X, Building2, Phone, MessageSquare } from 'lucide-react'
+import { Heart, Menu, X, Building2, Phone, MessageSquare } from 'lucide-react'
 
 const navLinks = [
   { label: 'Home', href: '/' },
@@ -17,26 +17,18 @@ const navLinks = [
 ]
 
 export default function Header() {
-  const [isScrolled, setIsScrolled] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const pathname = usePathname()
 
+  // Close mobile drawer on route change
   useEffect(() => {
-    const handleScroll = () => setIsScrolled(window.scrollY > 15)
-    window.addEventListener('scroll', handleScroll, { passive: true })
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
-
-  const isHome = pathname === '/'
+    setMobileMenuOpen(false)
+  }, [pathname])
 
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          isScrolled || !isHome
-            ? 'bg-white/95 backdrop-blur-md shadow-nav border-b border-gray-100 py-2.5'
-            : 'bg-gradient-to-b from-black/70 via-black/40 to-transparent py-4'
-        }`}
+        className="fixed top-0 left-0 right-0 z-50 bg-white/98 backdrop-blur-md shadow-sm border-b border-gray-200 transition-all duration-200 py-2.5 sm:py-3"
       >
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-14 sm:h-16">
@@ -46,33 +38,27 @@ export default function Header() {
                 <Building2 size={22} className="text-white" />
               </div>
               <div className="flex flex-col">
-                <span
-                  className={`text-base sm:text-lg font-bold tracking-tight leading-none uppercase ${
-                    isScrolled || !isHome ? 'text-charcoal' : 'text-white'
-                  }`}
-                >
+                <span className="text-base sm:text-xl font-extrabold tracking-tight leading-none uppercase text-gray-900 group-hover:text-emerald transition-colors">
                   Indra Properties
                 </span>
-                <span className="text-[10px] sm:text-[11px] font-semibold tracking-widest uppercase text-emerald-light">
+                <span className="text-[10px] sm:text-xs font-bold tracking-widest uppercase text-emerald-dark mt-0.5">
                   &amp; Enterprises
                 </span>
               </div>
             </Link>
 
-            {/* Desktop Navigation */}
-            <nav className="hidden xl:flex items-center gap-1" role="navigation" aria-label="Main navigation">
+            {/* Desktop Navigation (visible from lg: 1024px and up) */}
+            <nav className="hidden lg:flex items-center gap-1 xl:gap-1.5" role="navigation" aria-label="Main navigation">
               {navLinks.map((link) => {
                 const isActive = pathname === link.href
                 return (
                   <Link
                     key={link.href}
                     href={link.href}
-                    className={`px-3.5 py-1.5 rounded-lg text-sm font-medium transition-all duration-200 relative ${
+                    className={`px-3 py-1.5 xl:px-3.5 xl:py-2 rounded-lg text-sm font-bold transition-all duration-150 relative ${
                       isActive
-                        ? 'text-emerald font-semibold'
-                        : isScrolled || !isHome
-                        ? 'text-charcoal-600 hover:text-emerald hover:bg-emerald/5'
-                        : 'text-white/90 hover:text-white hover:bg-white/10'
+                        ? 'text-emerald bg-emerald/10 font-extrabold'
+                        : 'text-gray-800 hover:text-emerald hover:bg-gray-100 font-bold'
                     }`}
                   >
                     {link.label}
@@ -89,14 +75,10 @@ export default function Header() {
               {/* Call direct agency number */}
               <a
                 href="tel:+918460209025"
-                className={`hidden md:inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold border transition-all ${
-                  isScrolled || !isHome
-                    ? 'border-gray-200 text-charcoal hover:border-emerald hover:text-emerald'
-                    : 'border-white/30 text-white hover:bg-white/10'
-                }`}
+                className="hidden md:inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold border border-gray-300 bg-gray-50 text-gray-900 hover:border-emerald hover:text-emerald hover:bg-emerald/5 transition-all shadow-2xs"
                 title="Call Indra Properties & Enterprises"
               >
-                <Phone size={14} className="text-emerald-light" />
+                <Phone size={14} className="text-emerald" />
                 <span>+91 8460209025</span>
               </a>
 
@@ -104,19 +86,16 @@ export default function Header() {
               <Link
                 href="/saved"
                 aria-label="Saved properties"
-                className={`p-2 rounded-lg transition-all duration-200 ${
-                  isScrolled || !isHome
-                    ? 'text-charcoal-600 hover:bg-gray-100'
-                    : 'text-white/80 hover:text-white hover:bg-white/10'
-                }`}
+                className="p-2 rounded-lg text-gray-700 hover:text-red-500 hover:bg-gray-100 transition-colors"
+                title="View Shortlisted Properties"
               >
-                <Heart size={18} />
+                <Heart size={20} />
               </Link>
 
               {/* Post Property CTA */}
               <Link
                 href="/post-property"
-                className="hidden sm:inline-flex items-center gap-2 px-4 py-2 bg-emerald hover:bg-emerald-dark text-white text-xs sm:text-sm font-semibold rounded-lg shadow-sm hover:shadow-md transition-all duration-200"
+                className="hidden sm:inline-flex items-center gap-1.5 px-4 py-2 bg-emerald hover:bg-emerald-dark text-white text-xs sm:text-sm font-bold rounded-lg shadow-sm hover:shadow-md transition-all duration-200"
               >
                 <span>Post Property</span>
               </Link>
@@ -124,26 +103,18 @@ export default function Header() {
               {/* Contact Us Secondary CTA */}
               <Link
                 href="/contact"
-                className={`hidden lg:inline-flex items-center px-3.5 py-2 rounded-lg text-xs sm:text-sm font-medium transition-all duration-200 border ${
-                  isScrolled || !isHome
-                    ? 'border-gray-200 text-charcoal hover:bg-gray-50'
-                    : 'border-white/30 text-white hover:bg-white/10'
-                }`}
+                className="hidden xl:inline-flex items-center px-3.5 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all duration-200 border border-gray-300 text-gray-900 hover:bg-gray-100"
               >
                 Contact Us
               </Link>
 
-              {/* Mobile Hamburger */}
+              {/* Mobile Hamburger (visible on screens below lg) */}
               <button
                 onClick={() => setMobileMenuOpen(true)}
                 aria-label="Open menu"
-                className={`p-2 rounded-lg transition-all duration-200 xl:hidden ${
-                  isScrolled || !isHome
-                    ? 'text-charcoal hover:bg-gray-100'
-                    : 'text-white hover:bg-white/10'
-                }`}
+                className="p-2 rounded-lg text-gray-900 border border-gray-200 hover:bg-gray-100 transition-colors lg:hidden"
               >
-                <Menu size={22} />
+                <Menu size={24} />
               </button>
             </div>
           </div>
@@ -152,27 +123,27 @@ export default function Header() {
 
       {/* Mobile Navigation Drawer */}
       {mobileMenuOpen && (
-        <div className="fixed inset-0 z-[60] xl:hidden">
+        <div className="fixed inset-0 z-[60] lg:hidden">
           <div
             className="absolute inset-0 bg-black/60 backdrop-blur-sm transition-opacity"
             onClick={() => setMobileMenuOpen(false)}
           />
           <div className="absolute right-0 top-0 bottom-0 w-[310px] bg-white shadow-2xl flex flex-col animate-slide-in-right">
             {/* Drawer Header */}
-            <div className="flex items-center justify-between p-5 border-b border-gray-100">
+            <div className="flex items-center justify-between p-5 border-b border-gray-200">
               <Link
                 href="/"
                 onClick={() => setMobileMenuOpen(false)}
                 className="flex items-center gap-2"
               >
-                <div className="w-8 h-8 bg-emerald rounded-lg flex items-center justify-center">
-                  <Building2 size={18} className="text-white" />
+                <div className="w-9 h-9 bg-emerald rounded-lg flex items-center justify-center">
+                  <Building2 size={20} className="text-white" />
                 </div>
                 <div>
-                  <div className="text-sm font-bold text-charcoal uppercase leading-none">
+                  <div className="text-sm font-extrabold text-gray-900 uppercase leading-none">
                     Indra Properties
                   </div>
-                  <div className="text-[10px] font-semibold text-emerald tracking-wider uppercase">
+                  <div className="text-[10px] font-bold text-emerald-dark tracking-wider uppercase mt-0.5">
                     &amp; Enterprises
                   </div>
                 </div>
@@ -180,17 +151,17 @@ export default function Header() {
               <button
                 onClick={() => setMobileMenuOpen(false)}
                 aria-label="Close menu"
-                className="p-1.5 rounded-lg hover:bg-gray-100 text-charcoal-600 transition-colors"
+                className="p-2 rounded-lg hover:bg-gray-100 text-gray-700 transition-colors"
               >
-                <X size={20} />
+                <X size={22} />
               </button>
             </div>
 
             {/* Direct Call / Contact Bar */}
-            <div className="p-4 bg-gray-50 border-b border-gray-100 space-y-2">
+            <div className="p-4 bg-gray-50 border-b border-gray-200 space-y-2">
               <a
                 href="tel:+918460209025"
-                className="flex items-center justify-center gap-2 w-full py-2 bg-white border border-gray-200 rounded-lg text-xs font-semibold text-charcoal"
+                className="flex items-center justify-center gap-2 w-full py-2.5 bg-white border border-gray-300 rounded-xl text-xs font-bold text-gray-900 shadow-2xs hover:border-emerald"
               >
                 <Phone size={14} className="text-emerald" />
                 <span>Call +91 8460209025</span>
@@ -199,7 +170,7 @@ export default function Header() {
                 href="https://wa.me/918460209025?text=Hello%20Indra%20Properties%20%26%20Enterprises,%20I%20would%20like%20to%20enquire%20about%20properties."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 w-full py-2 bg-emerald/10 text-emerald rounded-lg text-xs font-semibold"
+                className="flex items-center justify-center gap-2 w-full py-2.5 bg-emerald/10 text-emerald-dark border border-emerald/20 rounded-xl text-xs font-bold hover:bg-emerald/20 transition-colors"
               >
                 <MessageSquare size={14} />
                 <span>Chat on WhatsApp</span>
@@ -207,7 +178,7 @@ export default function Header() {
             </div>
 
             {/* Navigation links */}
-            <nav className="flex-1 p-4 space-y-1 overflow-y-auto">
+            <nav className="flex-1 p-4 space-y-1.5 overflow-y-auto">
               {navLinks.map((link) => {
                 const isActive = pathname === link.href
                 return (
@@ -215,10 +186,10 @@ export default function Header() {
                     key={link.href}
                     href={link.href}
                     onClick={() => setMobileMenuOpen(false)}
-                    className={`flex items-center px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
+                    className={`flex items-center px-4 py-3 rounded-xl text-sm font-bold transition-colors ${
                       isActive
-                        ? 'bg-emerald/10 text-emerald font-semibold'
-                        : 'text-charcoal hover:bg-gray-50'
+                        ? 'bg-emerald text-white font-extrabold shadow-sm'
+                        : 'text-gray-900 hover:bg-gray-100'
                     }`}
                   >
                     {link.label}
@@ -228,18 +199,18 @@ export default function Header() {
             </nav>
 
             {/* Drawer Footer Actions */}
-            <div className="p-4 space-y-2.5 border-t border-gray-100 bg-gray-50">
+            <div className="p-4 space-y-2.5 border-t border-gray-200 bg-gray-50">
               <Link
                 href="/post-property"
                 onClick={() => setMobileMenuOpen(false)}
-                className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-emerald text-white rounded-lg text-sm font-semibold hover:bg-emerald-dark transition-colors"
+                className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-emerald text-white rounded-xl text-sm font-bold hover:bg-emerald-dark shadow-sm transition-colors"
               >
-                Post Property
+                Post Property Free
               </Link>
               <Link
                 href="/contact"
                 onClick={() => setMobileMenuOpen(false)}
-                className="w-full flex items-center justify-center px-4 py-2.5 border border-gray-300 rounded-lg text-sm font-medium text-charcoal hover:bg-white transition-colors"
+                className="w-full flex items-center justify-center px-4 py-2.5 border border-gray-300 rounded-xl text-sm font-bold text-gray-900 hover:bg-white transition-colors"
               >
                 Contact Us
               </Link>
