@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1C1C1E" />
+      <stop offset="100%" stop-color="#2D2D30" />
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A6B4A" />
+      <stop offset="100%" stop-color="#2D8A61" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)" />
+  <circle cx="400" cy="250" r="90" fill="#252528" stroke="#3A3A3E" stroke-width="2"/>
+  <!-- Home architectural icon -->
+  <path d="M400 190 L455 240 L442 240 L442 300 L358 300 L358 240 L345 240 Z" fill="url(#emeraldGrad)" />
+  <rect x="385" y="260" width="30" height="40" rx="3" fill="#1C1C1E" />
+  <text x="400" y="380" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="22" font-weight="600" fill="#E5E7EB" text-anchor="middle" letter-spacing="1">GHARDHUNDO</text>
+  <text x="400" y="412" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="14" fill="#9CA3AF" text-anchor="middle">Premium Property Photography</text>
+</svg>

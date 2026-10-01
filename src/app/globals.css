@@ -1,26 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
+@theme {
+  --color-charcoal: #1C1C1E;
+  --color-charcoal-800: #2D2D30;
+  --color-charcoal-600: #3F3F42;
+  --color-charcoal-400: #6B6B6E;
+
+  --color-emerald: #1A6B4A;
+  --color-emerald-light: #2D8A61;
+  --color-emerald-dark: #145537;
+  --color-emerald-50: #F0FDF4;
+  --color-emerald-100: #DCFCE7;
+
+  --color-gold: #C9A84C;
+  --color-gold-light: #E8C96E;
+  --color-gold-dark: #A8872E;
+  --color-gold-50: #FFFBEB;
+  --color-gold-100: #FEF3C7;
+
+  --color-slate: #6B7280;
+  --color-slate-light: #9CA3AF;
+
+  --color-warm-white: #FAFAF8;
+  --color-off-white: #F5F4F0;
+
+  --font-sans: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Playfair Display', Georgia, serif;
+}
+
+/* ============================================================
+   GHARDHUNDO | PREMIUM DESIGN SYSTEM
+   Indian Real Estate Marketplace
+   ============================================================ */
+
+/* ── Custom Properties ──────────────────────────────────────── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand Colors */
+  --charcoal:        #1C1C1E;
+  --charcoal-800:    #2D2D30;
+  --warm-white:      #FAFAF8;
+  --off-white:       #F5F4F0;
+  --emerald:         #1A6B4A;
+  --emerald-light:   #2D8A61;
+  --emerald-dark:    #145537;
+  --gold:            #C9A84C;
+  --gold-light:      #E8C96E;
+  --slate:           #6B7280;
+  --slate-light:     #9CA3AF;
+
+  /* Borders */
+  --border-light:    #E5E7EB;
+  --border-medium:   #D1D5DB;
+
+  /* Shadows */
+  --shadow-sm:       0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md:       0 4px 16px rgba(0, 0, 0, 0.10);
+  --shadow-lg:       0 8px 32px rgba(0, 0, 0, 0.12);
+  --shadow-xl:       0 16px 48px rgba(0, 0, 0, 0.14);
+
+  /* Border Radii */
+  --radius-sm:       6px;
+  --radius-md:       10px;
+  --radius-lg:       14px;
+  --radius-xl:       20px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* ── Base / Reset ───────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+  background: var(--warm-white);
+  color: var(--charcoal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  line-height: 1.6;
+  min-height: 100dvh;
+}
+
+/* ── Selection Color ─────────────────────────────────────────── */
+::selection {
+  background-color: rgba(26, 107, 74, 0.18);
+  color: var(--emerald-dark);
+}
+
+/* ── Scrollbar ──────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--off-white);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-medium);
+  border-radius: 99px;
+  transition: background 0.2s;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--slate-light);
+}
+
+/* ── Typography Utilities ───────────────────────────────────── */
+.font-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* ── Button System ──────────────────────────────────────────── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--emerald);
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: var(--radius-lg);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+  white-space: nowrap;
+  line-height: 1;
+}
+.btn-primary:hover {
+  background-color: var(--emerald-dark);
+  box-shadow: 0 4px 14px rgba(26, 107, 74, 0.35);
+  transform: translateY(-1px);
+}
+.btn-primary:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #ffffff;
+  color: var(--charcoal);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: var(--radius-lg);
+  border: 1.5px solid var(--charcoal);
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+  text-decoration: none;
+  white-space: nowrap;
+  line-height: 1;
+}
+.btn-secondary:hover {
+  background-color: var(--off-white);
+  transform: translateY(-1px);
+}
+.btn-secondary:active {
+  transform: translateY(0);
+}
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: transparent;
+  color: var(--emerald);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: var(--radius-lg);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  text-decoration: none;
+  white-space: nowrap;
+  line-height: 1;
+}
+.btn-ghost:hover {
+  background-color: rgba(26, 107, 74, 0.08);
+}
+
+.btn-gold {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--gold);
+  color: var(--charcoal);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: var(--radius-lg);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+  white-space: nowrap;
+  line-height: 1;
+}
+.btn-gold:hover {
+  background-color: #A8872E;
+  box-shadow: 0 4px 14px rgba(201, 168, 76, 0.40);
+  transform: translateY(-1px);
+}
+.btn-gold:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+/* ── Card System ─────────────────────────────────────────────── */
+.card {
+  background-color: #ffffff;
+  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow-sm);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.card-hover {
+  background-color: #ffffff;
+  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow-sm);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
+}
+.card-hover:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+  border-color: var(--border-medium);
+}
+
+/* ── Badge System ────────────────────────────────────────────── */
+.badge-verified {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.125rem 0.5rem;
+  background-color: rgba(26, 107, 74, 0.10);
+  color: var(--emerald);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.badge-featured {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.125rem 0.5rem;
+  background-color: rgba(201, 168, 76, 0.15);
+  color: #A8872E;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.badge-new {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.125rem 0.5rem;
+  background-color: #EFF6FF;
+  color: #2563EB;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.badge-premium {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.125rem 0.5rem;
+  background-color: var(--charcoal);
+  color: #ffffff;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+/* ── Skeleton / Loading ──────────────────────────────────────── */
+.skeleton {
+  animation: pulse 1.6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  background-color: #E5E7EB;
+  border-radius: var(--radius-md);
+}
+
+/* ── Property Image ──────────────────────────────────────────── */
+.property-card-image {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  width: 100%;
+  display: block;
+}
+
+/* ── Form Elements ───────────────────────────────────────────── */
+.input-field {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid #E5E7EB;
+  background-color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  color: var(--charcoal);
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  line-height: 1.5;
+}
+.input-field:focus {
+  border-color: var(--emerald);
+  box-shadow: 0 0 0 3px rgba(26, 107, 74, 0.12);
+}
+.input-field::placeholder {
+  color: var(--slate-light);
+}
+
+/* ── Section Typography ──────────────────────────────────────── */
+.section-heading {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.875rem;
+  font-weight: 600;
+  color: var(--charcoal);
+  line-height: 1.25;
+}
+
+.section-subheading {
+  color: var(--slate);
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* ── Price Display ───────────────────────────────────────────── */
+.price-display {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 600;
+  color: var(--charcoal);
+  line-height: 1.2;
+}
+
+/* ── Glass Morphism ──────────────────────────────────────────── */
+.glass {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background-color: rgba(255, 255, 255, 0.80);
+  border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+/* ── Animations ──────────────────────────────────────────────── */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.45;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes heartBeat {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.4s ease forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.3s ease forwards;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.3s ease forwards;
+}
+
+.animate-heart-beat {
+  animation: heartBeat 0.3s ease;
+}
+
+/* ── Gradient Overlays ───────────────────────────────────────── */
+.gradient-hero {
+  background: linear-gradient(
+    180deg,
+    rgba(28, 28, 30, 0.70) 0%,
+    rgba(28, 28, 30, 0.30) 60%,
+    rgba(28, 28, 30, 0.60) 100%
+  );
+}
+
+.gradient-emerald {
+  background: linear-gradient(135deg, #1A6B4A 0%, #145537 100%);
+}
+
+.gradient-gold {
+  background: linear-gradient(135deg, #C9A84C 0%, #A8872E 100%);
+}
+
+/* ── Focus-visible ring ──────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--emerald);
+  outline-offset: 2px;
+}
+
+/* ── Image Utilities ─────────────────────────────────────────── */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ── Link Reset ──────────────────────────────────────────────── */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ── Divider ─────────────────────────────────────────────────── */
+.divider {
+  border: none;
+  border-top: 1px solid var(--border-light);
+  margin: 1.5rem 0;
+}
+
+/* ── Map container ───────────────────────────────────────────── */
+.map-container {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--border-light);
 }

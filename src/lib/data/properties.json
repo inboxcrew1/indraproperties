@@ -1,0 +1,2657 @@
+[
+  {
+    "id": "prop-026",
+    "slug": "modern-3-bhk-floor-civil-lines-bulandshahr",
+    "title": "Modern 3 BHK Residential Floor in Civil Lines, Bulandshahr",
+    "listingType": "sale",
+    "category": "residential",
+    "subcategory": "flat",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": true,
+    "isPremium": false,
+    "isNew": true,
+    "price": {
+      "amount": 4200000,
+      "currency": "INR",
+      "isNegotiable": true,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 1550,
+      "unit": "sq_ft"
+    },
+    "location": {
+      "address": "Civil Lines Road",
+      "city": "Bulandshahr",
+      "state": "Uttar Pradesh",
+      "pincode": "203001",
+      "landmark": "Near Officers Colony & Civil Courts",
+      "lat": 28.41,
+      "lng": 77.845
+    },
+    "facing": "East",
+    "description": "Spacious and sunlit 3 BHK residential builder floor in the prestigious Civil Lines neighbourhood of Bulandshahr. Features modern vitrified flooring, expansive living lounge, attached bathrooms, modular kitchen, and reserved covered parking. Prime elite neighborhood with wide tree-lined avenues and immediate access to top schools and healthcare.",
+    "features": {
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "balconies": 2,
+      "parking": 1,
+      "totalFloors": 3,
+      "floorNumber": 1,
+      "furnishing": "semi_furnished",
+      "propertyAge": 1,
+      "roadWidth": 35
+    },
+    "amenities": [
+      {
+        "id": "am-f1",
+        "name": "Reserved Parking",
+        "category": "convenience"
+      },
+      {
+        "id": "am-f2",
+        "name": "Gated Access",
+        "category": "security"
+      },
+      {
+        "id": "am-f3",
+        "name": "Modular Kitchen",
+        "category": "convenience"
+      },
+      {
+        "id": "am-f4",
+        "name": "Balconies with Open Views",
+        "category": "recreation"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-026-1",
+        "url": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-026-2",
+        "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-indra",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-09-24T12:00:00+05:30",
+    "updatedAt": "2026-09-30T15:00:00+05:30"
+  },
+  {
+    "id": "prop-025",
+    "slug": "commercial-showroom-nh-34-bypass-bulandshahr",
+    "title": "High-Visibility Commercial Showroom Plot on NH-34 Bypass, Bulandshahr",
+    "listingType": "sale",
+    "category": "commercial",
+    "subcategory": "commercial_plot",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": true,
+    "isPremium": true,
+    "isNew": true,
+    "price": {
+      "amount": 12500000,
+      "currency": "INR",
+      "isNegotiable": true,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 300,
+      "unit": "gaj"
+    },
+    "location": {
+      "address": "NH-34 Bulandshahr Highway Bypass",
+      "city": "Bulandshahr",
+      "state": "Uttar Pradesh",
+      "pincode": "203001",
+      "landmark": "Opposite Logistics Corridor",
+      "lat": 28.395,
+      "lng": 77.86
+    },
+    "facing": "North",
+    "description": "Strategic commercial land parcel measuring 300 Gaj situated directly on the NH-34 Bulandshahr bypass. Boasts 60-foot direct road frontage, making it unbeatable for automobile showrooms, hotel/restaurant developments, corporate offices, or multi-brand warehousing. High vehicular density connecting Delhi NCR to Western Uttar Pradesh.",
+    "features": {
+      "roadWidth": 60
+    },
+    "amenities": [
+      {
+        "id": "am-s1",
+        "name": "60ft Highway Frontage",
+        "category": "convenience"
+      },
+      {
+        "id": "am-s2",
+        "name": "Commercial Land-Use Clearance",
+        "category": "security"
+      },
+      {
+        "id": "am-s3",
+        "name": "Heavy Vehicle Turnaround Access",
+        "category": "convenience"
+      },
+      {
+        "id": "am-s4",
+        "name": "3-Phase Electric Grid Line",
+        "category": "infrastructure"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-025-1",
+        "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-025-2",
+        "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-indra",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-09-25T14:00:00+05:30",
+    "updatedAt": "2026-09-30T17:00:00+05:30"
+  },
+  {
+    "id": "prop-024",
+    "slug": "prime-agricultural-land-4-acre-bulandshahr",
+    "title": "Fertile 4 Acre Agricultural Land Parcel, Bulandshahr Belt",
+    "listingType": "sale",
+    "category": "land",
+    "subcategory": "agricultural",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": true,
+    "isPremium": false,
+    "isNew": false,
+    "price": {
+      "amount": 6000000,
+      "currency": "INR",
+      "isNegotiable": true,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 4,
+      "unit": "acre"
+    },
+    "location": {
+      "address": "Syana Road Belt",
+      "city": "Bulandshahr",
+      "state": "Uttar Pradesh",
+      "pincode": "203001",
+      "landmark": "Near Canal Link & Paved Road",
+      "lat": 28.42,
+      "lng": 77.87
+    },
+    "facing": "East",
+    "description": "High-yield fertile agricultural land parcel spanning 4 Acres situated on the Syana Road belt of Bulandshahr district. Equipped with functioning tube-well irrigation, fertile alluvium soil suitable for multiple crop cycles, and direct paved tractor approach road. Verified single-owner revenue records with mutation ready for smooth transaction.",
+    "amenities": [
+      {
+        "id": "am-a1",
+        "name": "Tube-well Water Connection",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-a2",
+        "name": "Paved Approach Road",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-a3",
+        "name": "Clear Revenue Registry",
+        "category": "security"
+      },
+      {
+        "id": "am-a4",
+        "name": "Fertile Alluvial Soil",
+        "category": "convenience"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-024-1",
+        "url": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-024-2",
+        "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-indra",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-09-15T09:00:00+05:30",
+    "updatedAt": "2026-09-28T16:00:00+05:30"
+  },
+  {
+    "id": "prop-023",
+    "slug": "corner-residential-plot-bhoor-chauraha-bulandshahr",
+    "title": "Corner Residential Plot 200 Gaj near Bhoor Chauraha, Bulandshahr",
+    "listingType": "sale",
+    "category": "land",
+    "subcategory": "plot",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": true,
+    "isPremium": true,
+    "isNew": true,
+    "price": {
+      "amount": 2400000,
+      "currency": "INR",
+      "isNegotiable": true,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 200,
+      "unit": "gaj"
+    },
+    "location": {
+      "address": "Near Bhoor Chauraha, Civil Colony Link",
+      "city": "Bulandshahr",
+      "state": "Uttar Pradesh",
+      "pincode": "203001",
+      "landmark": "300m from Bhoor Chauraha",
+      "lat": 28.406,
+      "lng": 77.85
+    },
+    "facing": "North-East",
+    "description": "Outstanding 200 Gaj two-side open corner plot located in a peaceful residential development within walking distance to Bhoor Chauraha. Benefits from dual 30-foot and 25-foot approach roads, excellent sunlight, underground water line, and immediate registry availability. Ready for immediate house construction in one of Bulandshahr’s most desirable central localities.",
+    "features": {
+      "roadWidth": 30
+    },
+    "amenities": [
+      {
+        "id": "am-p1",
+        "name": "Two-Side Open Corner",
+        "category": "convenience"
+      },
+      {
+        "id": "am-p2",
+        "name": "30ft Approach Road",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-p3",
+        "name": "Street Lighting & Water",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-p4",
+        "name": "Clear Freehold Title",
+        "category": "security"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-023-1",
+        "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-023-2",
+        "url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-indra",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-09-22T08:30:00+05:30",
+    "updatedAt": "2026-09-30T10:00:00+05:30"
+  },
+  {
+    "id": "prop-022",
+    "slug": "commercial-retail-shop-transport-nagar-bulandshahr",
+    "title": "Commercial Retail Shop near Gate No. 2, Transport Nagar, Bulandshahr",
+    "listingType": "sale",
+    "category": "commercial",
+    "subcategory": "shop",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": true,
+    "isPremium": false,
+    "isNew": true,
+    "price": {
+      "amount": 3500000,
+      "currency": "INR",
+      "isNegotiable": true,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 350,
+      "unit": "sq_ft"
+    },
+    "location": {
+      "address": "Near Gate No. 2, Transport Nagar",
+      "city": "Bulandshahr",
+      "state": "Uttar Pradesh",
+      "pincode": "203001",
+      "landmark": "Near Bhoor Chauraha Transport Nagar Hub",
+      "lat": 28.403,
+      "lng": 77.854
+    },
+    "facing": "North",
+    "description": "Prime ground-floor commercial shop situated in the bustling commercial hub of Transport Nagar near Gate No. 2, Bulandshahr. Features 15-foot wide frontage facing a wide commercial corridor with excellent truck and commercial vehicle access. Ideal for retail stores, spare parts, transport agencies, distributor offices, or hardware business with guaranteed commercial footfall and rental yield.",
+    "features": {
+      "totalFloors": 2,
+      "floorNumber": 0,
+      "furnishing": "unfurnished",
+      "propertyAge": 2,
+      "roadWidth": 45
+    },
+    "amenities": [
+      {
+        "id": "am-c1",
+        "name": "45ft Wide Main Road",
+        "category": "convenience"
+      },
+      {
+        "id": "am-c2",
+        "name": "Power Connection",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-c3",
+        "name": "Rolling Shutter",
+        "category": "security"
+      },
+      {
+        "id": "am-c4",
+        "name": "High Commercial Catchment",
+        "category": "convenience"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-022-1",
+        "url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-022-2",
+        "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-indra",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-09-18T11:00:00+05:30",
+    "updatedAt": "2026-09-29T14:00:00+05:30"
+  },
+  {
+    "id": "prop-021",
+    "slug": "independent-3-bhk-house-bhoor-chauraha-bulandshahr",
+    "title": "Independent 3 BHK Kothi / House near Bhoor Chauraha, Bulandshahr",
+    "listingType": "sale",
+    "category": "residential",
+    "subcategory": "house",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": true,
+    "isPremium": true,
+    "isNew": true,
+    "price": {
+      "amount": 6500000,
+      "currency": "INR",
+      "isNegotiable": true,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 180,
+      "unit": "gaj"
+    },
+    "location": {
+      "address": "Near Bhoor Chauraha Road",
+      "city": "Bulandshahr",
+      "state": "Uttar Pradesh",
+      "pincode": "203001",
+      "landmark": "Near Bhoor Chauraha Junction",
+      "lat": 28.405,
+      "lng": 77.852
+    },
+    "facing": "North-East",
+    "description": "A beautifully maintained 3 BHK independent house located in a prime residential pocket near Bhoor Chauraha, Bulandshahr. Features spacious bedrooms, modular kitchen, open terrace, dedicated car porch, and 30-foot front road. Excellent peaceful locality with instant connectivity to Transport Nagar, GT Road, and city centre. Complete legal paperwork with clean freehold registry.",
+    "features": {
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "balconies": 2,
+      "parking": 2,
+      "totalFloors": 2,
+      "floorNumber": 0,
+      "furnishing": "semi_furnished",
+      "propertyAge": 3,
+      "roadWidth": 30
+    },
+    "amenities": [
+      {
+        "id": "am-b1",
+        "name": "Car Parking",
+        "category": "convenience"
+      },
+      {
+        "id": "am-b2",
+        "name": "24x7 Water Supply",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-b3",
+        "name": "Private Terrace",
+        "category": "recreation"
+      },
+      {
+        "id": "am-b4",
+        "name": "Wide 30ft Road",
+        "category": "convenience"
+      },
+      {
+        "id": "am-b5",
+        "name": "Gated Neighbourhood",
+        "category": "security"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-021-1",
+        "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-021-2",
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      },
+      {
+        "id": "m-021-3",
+        "url": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 2
+      }
+    ],
+    "advertiser": {
+      "id": "adv-indra",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-09-20T10:00:00+05:30",
+    "updatedAt": "2026-09-30T12:00:00+05:30"
+  },
+  {
+    "id": "prop-001",
+    "slug": "premium-residential-plot-sector-65-bulandshahr",
+    "title": "Premium Residential Plot in Sector 65, Bulandshahr",
+    "listingType": "sale",
+    "category": "land",
+    "subcategory": "plot",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": true,
+    "isPremium": false,
+    "isNew": false,
+    "price": {
+      "amount": 1800000,
+      "currency": "INR",
+      "isNegotiable": true,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 250,
+      "unit": "gaj"
+    },
+    "location": {
+      "address": "Sector 65",
+      "city": "Bulandshahr",
+      "state": "Uttar Pradesh",
+      "pincode": "203001",
+      "landmark": "Near Sector 65 Main Road",
+      "lat": 28.4074,
+      "lng": 77.8485
+    },
+    "facing": "East",
+    "description": "A premium residential plot situated in the well-planned Sector 65 of Bulandshahr, offering excellent connectivity to NH-58 and the city centre. The plot is located in a gated society with wide internal roads, underground drainage, and electricity infrastructure already in place. Ideal for building your dream home in a rapidly developing locality with rising real estate value. Verified legal title with clear documentation available for immediate possession.",
+    "amenities": [
+      {
+        "id": "am-001",
+        "name": "Gated Society",
+        "category": "security"
+      },
+      {
+        "id": "am-002",
+        "name": "Underground Drainage",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-003",
+        "name": "Wide Internal Roads",
+        "category": "convenience"
+      },
+      {
+        "id": "am-004",
+        "name": "Street Lighting",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-005",
+        "name": "Park Nearby",
+        "category": "recreation"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-001-1",
+        "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-001-2",
+        "url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-001",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-08-15T09:30:00+05:30",
+    "updatedAt": "2026-09-28T11:00:00+05:30"
+  },
+  {
+    "id": "prop-002",
+    "slug": "residential-plot-nh-58-bulandshahr",
+    "title": "Residential Plot Near NH-58, Bulandshahr",
+    "listingType": "sale",
+    "category": "land",
+    "subcategory": "plot",
+    "status": "available",
+    "verificationStatus": "pending",
+    "isFeatured": false,
+    "isPremium": false,
+    "isNew": true,
+    "price": {
+      "amount": 2800000,
+      "currency": "INR",
+      "isNegotiable": true,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 400,
+      "unit": "gaj"
+    },
+    "location": {
+      "address": "NH-58 Highway Belt",
+      "city": "Bulandshahr",
+      "state": "Uttar Pradesh",
+      "pincode": "203001",
+      "landmark": "200 metres from NH-58 Highway",
+      "lat": 28.3986,
+      "lng": 77.8512
+    },
+    "facing": "North",
+    "description": "A large 400 Gaj residential plot situated just 200 metres from the National Highway NH-58, offering superb connectivity to Delhi, Meerut, and Haridwar. The plot falls in a developing township with approved layout and is surrounded by residential neighbourhoods. All essential utilities including water, electricity, and road access are readily available. An excellent investment opportunity in one of the fastest-growing real estate corridors of western Uttar Pradesh.",
+    "amenities": [
+      {
+        "id": "am-006",
+        "name": "Highway Connectivity",
+        "category": "convenience"
+      },
+      {
+        "id": "am-007",
+        "name": "Electricity Connection",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-008",
+        "name": "Water Supply",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-009",
+        "name": "Approved Layout",
+        "category": "legal"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-002-1",
+        "url": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-002-2",
+        "url": "https://images.unsplash.com/photo-1500076656116-558758c991c1?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-002",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-09-10T10:15:00+05:30",
+    "updatedAt": "2026-09-30T08:45:00+05:30"
+  },
+  {
+    "id": "prop-003",
+    "slug": "spacious-2-bhk-flat-sector-62-noida",
+    "title": "Spacious 2 BHK Flat in Sector 62, Noida",
+    "listingType": "sale",
+    "category": "residential",
+    "subcategory": "flat",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": true,
+    "isPremium": false,
+    "isNew": false,
+    "price": {
+      "amount": 6500000,
+      "currency": "INR",
+      "isNegotiable": true,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 1150,
+      "unit": "sqft"
+    },
+    "location": {
+      "address": "Sector 62",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201309",
+      "landmark": "Near Electronic City Metro Station",
+      "lat": 28.6262,
+      "lng": 77.3791
+    },
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "parking": 1,
+    "floor": 7,
+    "totalFloors": 14,
+    "facing": "East",
+    "furnishing": "semi_furnished",
+    "description": "A beautifully designed 2 BHK flat on the 7th floor of a prestigious residential complex in Sector 62, Noida - one of the city's most sought-after IT and residential corridors. The apartment features a spacious living-dining area, modern kitchen with modular fittings, and well-proportioned bedrooms with ample natural light. The society offers 24/7 security, landscaped gardens, and a fully equipped clubhouse. Walking distance to the Electronic City Metro Station makes commuting effortless.",
+    "amenities": [
+      {
+        "id": "am-010",
+        "name": "24/7 Security",
+        "category": "security"
+      },
+      {
+        "id": "am-011",
+        "name": "Covered Parking",
+        "category": "convenience"
+      },
+      {
+        "id": "am-012",
+        "name": "Clubhouse",
+        "category": "recreation"
+      },
+      {
+        "id": "am-013",
+        "name": "Swimming Pool",
+        "category": "recreation"
+      },
+      {
+        "id": "am-014",
+        "name": "Gym / Fitness Centre",
+        "category": "recreation"
+      },
+      {
+        "id": "am-015",
+        "name": "Children's Play Area",
+        "category": "recreation"
+      },
+      {
+        "id": "am-016",
+        "name": "Power Backup",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-017",
+        "name": "Lift",
+        "category": "convenience"
+      },
+      {
+        "id": "am-018",
+        "name": "Intercom",
+        "category": "security"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-003-1",
+        "url": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-003-2",
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      },
+      {
+        "id": "m-003-3",
+        "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 2
+      }
+    ],
+    "advertiser": {
+      "id": "adv-003",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-07-22T14:00:00+05:30",
+    "updatedAt": "2026-09-25T16:30:00+05:30"
+  },
+  {
+    "id": "prop-004",
+    "slug": "luxury-3-bhk-apartment-sector-150-noida",
+    "title": "Luxury 3 BHK Apartment in Sector 150, Noida",
+    "listingType": "sale",
+    "category": "residential",
+    "subcategory": "flat",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": true,
+    "isPremium": true,
+    "isNew": false,
+    "price": {
+      "amount": 12000000,
+      "currency": "INR",
+      "isNegotiable": false,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 1850,
+      "unit": "sqft"
+    },
+    "location": {
+      "address": "Sector 150",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201310",
+      "landmark": "Near Noida-Greater Noida Expressway",
+      "lat": 28.5006,
+      "lng": 77.3919
+    },
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "parking": 2,
+    "floor": 12,
+    "totalFloors": 28,
+    "facing": "North-East",
+    "furnishing": "semi_furnished",
+    "description": "An exquisite 3 BHK luxury apartment in Sector 150, Noida's most premium sporting-themed township abutting the Yamuna Expressway. The apartment boasts expansive rooms, Italian marble flooring, premium fixtures, and panoramic views of the golf course and lush green landscape. The integrated township offers world-class sports facilities including cricket, football, tennis, and a 9-hole golf course. RERA registered project with OC received, offering ready possession to discerning buyers.",
+    "amenities": [
+      {
+        "id": "am-019",
+        "name": "Golf Course View",
+        "category": "recreation"
+      },
+      {
+        "id": "am-020",
+        "name": "Olympic Swimming Pool",
+        "category": "recreation"
+      },
+      {
+        "id": "am-021",
+        "name": "Tennis Court",
+        "category": "recreation"
+      },
+      {
+        "id": "am-022",
+        "name": "Cricket Ground",
+        "category": "recreation"
+      },
+      {
+        "id": "am-023",
+        "name": "Squash Court",
+        "category": "recreation"
+      },
+      {
+        "id": "am-024",
+        "name": "Spa & Wellness Centre",
+        "category": "recreation"
+      },
+      {
+        "id": "am-025",
+        "name": "Concierge Service",
+        "category": "convenience"
+      },
+      {
+        "id": "am-026",
+        "name": "Video Door Phone",
+        "category": "security"
+      },
+      {
+        "id": "am-027",
+        "name": "CCTV Surveillance",
+        "category": "security"
+      },
+      {
+        "id": "am-028",
+        "name": "Power Backup",
+        "category": "infrastructure"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-004-1",
+        "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-004-2",
+        "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-004",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-06-01T10:00:00+05:30",
+    "updatedAt": "2026-09-29T12:00:00+05:30"
+  },
+  {
+    "id": "prop-005",
+    "slug": "premium-4-bhk-apartment-greater-noida-west",
+    "title": "Premium 4 BHK Apartment in Greater Noida West",
+    "listingType": "sale",
+    "category": "residential",
+    "subcategory": "flat",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": true,
+    "isPremium": true,
+    "isNew": false,
+    "price": {
+      "amount": 18500000,
+      "currency": "INR",
+      "isNegotiable": true,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 2400,
+      "unit": "sqft"
+    },
+    "location": {
+      "address": "Greater Noida West (Noida Extension)",
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201318",
+      "landmark": "Near Gaur Chowk, NH-24",
+      "lat": 28.6139,
+      "lng": 77.3893
+    },
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "parking": 2,
+    "floor": 18,
+    "totalFloors": 32,
+    "facing": "West",
+    "furnishing": "unfurnished",
+    "description": "A sprawling 4 BHK premium apartment in the vibrant Greater Noida West township, offering an urban lifestyle at competitive prices. Spread across 2400 sq ft, each room is generously proportioned with high ceilings, large windows, and quality fittings throughout. The mega township features over 70% green open spaces, multiple sports courts, a grand clubhouse, and is moments from NH-24 and the under-construction Aqua Line Metro extension. RERA compliant, possession-ready, and surrounded by top schools and hospitals.",
+    "amenities": [
+      {
+        "id": "am-029",
+        "name": "Grand Clubhouse",
+        "category": "recreation"
+      },
+      {
+        "id": "am-030",
+        "name": "Multiple Swimming Pools",
+        "category": "recreation"
+      },
+      {
+        "id": "am-031",
+        "name": "Badminton Court",
+        "category": "recreation"
+      },
+      {
+        "id": "am-032",
+        "name": "Yoga & Meditation Garden",
+        "category": "recreation"
+      },
+      {
+        "id": "am-033",
+        "name": "Supermarket",
+        "category": "convenience"
+      },
+      {
+        "id": "am-034",
+        "name": "Multi-level Car Parking",
+        "category": "convenience"
+      },
+      {
+        "id": "am-035",
+        "name": "24/7 Security",
+        "category": "security"
+      },
+      {
+        "id": "am-036",
+        "name": "Intercom",
+        "category": "security"
+      },
+      {
+        "id": "am-037",
+        "name": "Fire Safety System",
+        "category": "safety"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-005-1",
+        "url": "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-005-2",
+        "url": "https://images.unsplash.com/photo-1600596021326-a8c7f35c0989?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      },
+      {
+        "id": "m-005-3",
+        "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 2
+      }
+    ],
+    "advertiser": {
+      "id": "adv-005",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-05-15T09:00:00+05:30",
+    "updatedAt": "2026-09-28T14:00:00+05:30"
+  },
+  {
+    "id": "prop-006",
+    "slug": "independent-house-3-bhk-dwarka-delhi",
+    "title": "Independent House 3 BHK in Dwarka, Delhi",
+    "listingType": "sale",
+    "category": "residential",
+    "subcategory": "house",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": true,
+    "isPremium": false,
+    "isNew": false,
+    "price": {
+      "amount": 25000000,
+      "currency": "INR",
+      "isNegotiable": true,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 1800,
+      "unit": "sqft"
+    },
+    "location": {
+      "address": "Sector 10, Dwarka",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "pincode": "110075",
+      "landmark": "Near Dwarka Sector 10 Metro Station",
+      "lat": 28.5921,
+      "lng": 77.046
+    },
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "parking": 2,
+    "floor": 0,
+    "totalFloors": 3,
+    "facing": "South",
+    "furnishing": "semi_furnished",
+    "description": "A well-maintained independent house in the prestigious Sector 10, Dwarka - Delhi's most planned and green residential sub-city. The property comprises three floors with a separate servant quarter, terrace garden, and a spacious car parking forecourt. Elegantly built with quality construction materials, the house features a modular kitchen, wooden flooring in bedrooms, and tasteful bathrooms. Close to top schools, hospitals, IGI Airport, and the Metro, this property offers a rare combination of space and central Delhi connectivity.",
+    "amenities": [
+      {
+        "id": "am-038",
+        "name": "Terrace Garden",
+        "category": "outdoor"
+      },
+      {
+        "id": "am-039",
+        "name": "Servant Quarter",
+        "category": "convenience"
+      },
+      {
+        "id": "am-040",
+        "name": "Car Parking (2 cars)",
+        "category": "convenience"
+      },
+      {
+        "id": "am-041",
+        "name": "Modular Kitchen",
+        "category": "interior"
+      },
+      {
+        "id": "am-042",
+        "name": "Wooden Flooring",
+        "category": "interior"
+      },
+      {
+        "id": "am-043",
+        "name": "Solar Panels",
+        "category": "green"
+      },
+      {
+        "id": "am-044",
+        "name": "CCTV Cameras",
+        "category": "security"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-006-1",
+        "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-006-2",
+        "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-006",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-08-01T11:00:00+05:30",
+    "updatedAt": "2026-09-27T10:00:00+05:30"
+  },
+  {
+    "id": "prop-007",
+    "slug": "luxurious-4-bhk-villa-sector-57-gurugram",
+    "title": "Luxurious 4 BHK Villa in Sector 57, Gurugram",
+    "listingType": "sale",
+    "category": "residential",
+    "subcategory": "villa",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": false,
+    "isPremium": true,
+    "isNew": false,
+    "price": {
+      "amount": 38000000,
+      "currency": "INR",
+      "isNegotiable": false,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 4200,
+      "unit": "sqft"
+    },
+    "location": {
+      "address": "Sector 57",
+      "city": "Gurugram",
+      "state": "Haryana",
+      "pincode": "122011",
+      "landmark": "Near Golf Course Extension Road",
+      "lat": 28.4132,
+      "lng": 77.0721
+    },
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "parking": 3,
+    "floor": 0,
+    "totalFloors": 2,
+    "facing": "North",
+    "furnishing": "semi_furnished",
+    "description": "A magnificent 4 BHK duplex villa in the exclusive villa township of Sector 57, Gurugram, bordering the Golf Course Extension Road. Spanning 4,200 sq ft across two levels, the villa features a private swimming pool, landscaped garden, double-height living room with floor-to-ceiling windows, and a spacious rooftop lounge. Each bedroom comes with an attached bath and walk-in wardrobe. The gated villa complex provides 24/7 security, landscaped boulevards, and premium concierge services - ideal for families seeking a world-class lifestyle.",
+    "amenities": [
+      {
+        "id": "am-045",
+        "name": "Private Swimming Pool",
+        "category": "recreation"
+      },
+      {
+        "id": "am-046",
+        "name": "Landscaped Garden",
+        "category": "outdoor"
+      },
+      {
+        "id": "am-047",
+        "name": "Rooftop Lounge",
+        "category": "outdoor"
+      },
+      {
+        "id": "am-048",
+        "name": "Walk-in Wardrobe",
+        "category": "interior"
+      },
+      {
+        "id": "am-049",
+        "name": "Double Height Living Room",
+        "category": "interior"
+      },
+      {
+        "id": "am-050",
+        "name": "Smart Home Automation",
+        "category": "technology"
+      },
+      {
+        "id": "am-051",
+        "name": "3-Car Garage",
+        "category": "convenience"
+      },
+      {
+        "id": "am-052",
+        "name": "Club Membership",
+        "category": "recreation"
+      },
+      {
+        "id": "am-053",
+        "name": "Concierge Service",
+        "category": "convenience"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-007-1",
+        "url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-007-2",
+        "url": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-007",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-07-05T09:30:00+05:30",
+    "updatedAt": "2026-09-30T09:00:00+05:30"
+  },
+  {
+    "id": "prop-008",
+    "slug": "3-bhk-builder-floor-south-delhi",
+    "title": "3 BHK Builder Floor in South Delhi",
+    "listingType": "sale",
+    "category": "residential",
+    "subcategory": "builder_floor",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": false,
+    "isPremium": false,
+    "isNew": false,
+    "price": {
+      "amount": 16000000,
+      "currency": "INR",
+      "isNegotiable": true,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 1600,
+      "unit": "sqft"
+    },
+    "location": {
+      "address": "Greater Kailash Part-I",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "pincode": "110048",
+      "landmark": "Near M-Block Market, GK-I",
+      "lat": 28.5459,
+      "lng": 77.2362
+    },
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "parking": 1,
+    "floor": 1,
+    "totalFloors": 4,
+    "facing": "East",
+    "furnishing": "semi_furnished",
+    "description": "A beautifully crafted 3 BHK builder floor on the first floor of a DDA-approved independent house in the coveted Greater Kailash Part-I neighbourhood of South Delhi. The floor features spacious rooms, large balconies, premium tile flooring, and a fully fitted modular kitchen with chimney and hob. Separate entry ensures complete privacy, and dedicated parking is available in the driveway. Situated near top-rated schools, hospitals, and the iconic M-Block Market, this is a quintessential South Delhi lifestyle address.",
+    "amenities": [
+      {
+        "id": "am-054",
+        "name": "Separate Entry",
+        "category": "convenience"
+      },
+      {
+        "id": "am-055",
+        "name": "Dedicated Parking",
+        "category": "convenience"
+      },
+      {
+        "id": "am-056",
+        "name": "Modular Kitchen",
+        "category": "interior"
+      },
+      {
+        "id": "am-057",
+        "name": "Large Balconies",
+        "category": "outdoor"
+      },
+      {
+        "id": "am-058",
+        "name": "Piped Gas",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-059",
+        "name": "DDA Approved",
+        "category": "legal"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-008-1",
+        "url": "https://images.unsplash.com/photo-1515263487990-61b07816b324?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-008-2",
+        "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-008",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-08-20T12:00:00+05:30",
+    "updatedAt": "2026-09-26T15:00:00+05:30"
+  },
+  {
+    "id": "prop-009",
+    "slug": "elegant-farm-house-greater-noida",
+    "title": "Elegant Farm House in Greater Noida",
+    "listingType": "sale",
+    "category": "residential",
+    "subcategory": "farmhouse",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": false,
+    "isPremium": true,
+    "isNew": false,
+    "price": {
+      "amount": 22000000,
+      "currency": "INR",
+      "isNegotiable": true,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 5000,
+      "unit": "sqft"
+    },
+    "location": {
+      "address": "Yamuna Expressway Belt",
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "203207",
+      "landmark": "Near Jewar, Yamuna Expressway",
+      "lat": 28.4089,
+      "lng": 77.5311
+    },
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "parking": 5,
+    "floor": 0,
+    "totalFloors": 2,
+    "facing": "East",
+    "furnishing": "furnished",
+    "description": "A stunning 5 BHK farmhouse nestled on the scenic Yamuna Expressway near Jewar, offering an oasis of tranquility just 45 minutes from central Noida. The sprawling property sits on a 2-acre lush plot with an organic fruit orchard, swimming pool, outdoor barbecue area, and a fully equipped party lawn. Interiors feature imported wooden flooring, designer bathrooms, a state-of-the-art home theatre, and fully equipped gourmet kitchen. With the upcoming Jewar International Airport nearby, this is a compelling investment alongside an idyllic lifestyle escape.",
+    "amenities": [
+      {
+        "id": "am-060",
+        "name": "Swimming Pool",
+        "category": "recreation"
+      },
+      {
+        "id": "am-061",
+        "name": "Organic Orchard",
+        "category": "outdoor"
+      },
+      {
+        "id": "am-062",
+        "name": "Party Lawn",
+        "category": "outdoor"
+      },
+      {
+        "id": "am-063",
+        "name": "Home Theatre",
+        "category": "entertainment"
+      },
+      {
+        "id": "am-064",
+        "name": "Outdoor Barbecue",
+        "category": "outdoor"
+      },
+      {
+        "id": "am-065",
+        "name": "Gourmet Kitchen",
+        "category": "interior"
+      },
+      {
+        "id": "am-066",
+        "name": "Borewell Water",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-067",
+        "name": "Solar Power",
+        "category": "green"
+      },
+      {
+        "id": "am-068",
+        "name": "Multiple Car Parking",
+        "category": "convenience"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-009-1",
+        "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-009-2",
+        "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-009",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-06-20T10:00:00+05:30",
+    "updatedAt": "2026-09-29T11:30:00+05:30"
+  },
+  {
+    "id": "prop-010",
+    "slug": "penthouse-4-bhk-sector-94-noida",
+    "title": "Penthouse 4 BHK in Sector 94, Noida",
+    "listingType": "sale",
+    "category": "residential",
+    "subcategory": "penthouse",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": true,
+    "isPremium": true,
+    "isNew": false,
+    "price": {
+      "amount": 45000000,
+      "currency": "INR",
+      "isNegotiable": false,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 3800,
+      "unit": "sqft"
+    },
+    "location": {
+      "address": "Sector 94",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201304",
+      "landmark": "Adjacent to DND Flyway, Noida",
+      "lat": 28.5133,
+      "lng": 77.3183
+    },
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "parking": 3,
+    "floor": 34,
+    "totalFloors": 35,
+    "facing": "North-West",
+    "furnishing": "furnished",
+    "description": "An ultra-luxurious 4 BHK penthouse on the 34th floor of Noida's most iconic residential tower in Sector 94, offering sweeping 360-degree views of the Delhi-NCR skyline and the Yamuna floodplains. Spanning 3,800 sq ft of pure opulence, the duplex penthouse features an exclusive rooftop terrace with jacuzzi, private elevator access, bespoke Italian kitchen, and imported stone finishes throughout. Fully furnished with designer furniture and home automation, this is the pinnacle of urban luxury living in NCR. Immediate possession available.",
+    "amenities": [
+      {
+        "id": "am-069",
+        "name": "Rooftop Terrace with Jacuzzi",
+        "category": "recreation"
+      },
+      {
+        "id": "am-070",
+        "name": "Private Elevator",
+        "category": "convenience"
+      },
+      {
+        "id": "am-071",
+        "name": "Home Automation",
+        "category": "technology"
+      },
+      {
+        "id": "am-072",
+        "name": "Sky Lounge Access",
+        "category": "recreation"
+      },
+      {
+        "id": "am-073",
+        "name": "Infinity Swimming Pool",
+        "category": "recreation"
+      },
+      {
+        "id": "am-074",
+        "name": "Concierge & Valet",
+        "category": "convenience"
+      },
+      {
+        "id": "am-075",
+        "name": "Air Purification System",
+        "category": "health"
+      },
+      {
+        "id": "am-076",
+        "name": "Wine Cellar",
+        "category": "interior"
+      },
+      {
+        "id": "am-077",
+        "name": "Multi-tier Security",
+        "category": "security"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-010-1",
+        "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-010-2",
+        "url": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-010",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-05-01T09:00:00+05:30",
+    "updatedAt": "2026-09-30T10:00:00+05:30"
+  },
+  {
+    "id": "prop-011",
+    "slug": "agricultural-land-bulandshahr",
+    "title": "Agricultural Land in Bulandshahr",
+    "listingType": "sale",
+    "category": "land",
+    "subcategory": "agricultural",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": false,
+    "isPremium": false,
+    "isNew": false,
+    "price": {
+      "amount": 2200000,
+      "currency": "INR",
+      "isNegotiable": true,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 2,
+      "unit": "acre"
+    },
+    "location": {
+      "address": "Village Sikandrabad",
+      "city": "Bulandshahr",
+      "state": "Uttar Pradesh",
+      "pincode": "203205",
+      "landmark": "Near Sikandrabad Town, Bulandshahr",
+      "lat": 28.4462,
+      "lng": 77.6888
+    },
+    "facing": "South",
+    "description": "Two acres of fertile agricultural land in the productive belt of Sikandrabad, Bulandshahr - known for sugarcane, wheat, and potato cultivation. The land has perennial canal irrigation access and a borwell, ensuring year-round water availability. Accessible via a metalled village road, the land has clear jamabandi (revenue records) and is legally held under a single ownership, making documentation straightforward. An ideal acquisition for farmers, agri-investors, or those exploring organic farming ventures.",
+    "amenities": [
+      {
+        "id": "am-078",
+        "name": "Canal Irrigation",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-079",
+        "name": "Borewell",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-080",
+        "name": "Metalled Road Access",
+        "category": "convenience"
+      },
+      {
+        "id": "am-081",
+        "name": "Electricity Supply",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-082",
+        "name": "Clear Revenue Records",
+        "category": "legal"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-011-1",
+        "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-011-2",
+        "url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-011",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-09-01T08:00:00+05:30",
+    "updatedAt": "2026-09-25T08:00:00+05:30"
+  },
+  {
+    "id": "prop-012",
+    "slug": "farm-land-sale-bulandshahr",
+    "title": "Farm Land for Sale in Bulandshahr",
+    "listingType": "sale",
+    "category": "land",
+    "subcategory": "farmland",
+    "status": "available",
+    "verificationStatus": "pending",
+    "isFeatured": false,
+    "isPremium": false,
+    "isNew": true,
+    "price": {
+      "amount": 4500000,
+      "currency": "INR",
+      "isNegotiable": true,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 5,
+      "unit": "acre"
+    },
+    "location": {
+      "address": "Dibai Road",
+      "city": "Bulandshahr",
+      "state": "Uttar Pradesh",
+      "pincode": "202001",
+      "landmark": "Along Dibai Road, Bulandshahr",
+      "lat": 28.3765,
+      "lng": 77.8234
+    },
+    "facing": "East",
+    "description": "Five acres of contiguous farm land along the Dibai Road, Bulandshahr, with rich alluvial soil ideal for horticulture and vegetable farming. The land is currently under wheat cultivation with existing tube well connections and a small boundary wall on three sides. Its proximity to the Bulandshahr-Dibai highway ensures quick market access for produce. An excellent choice for large-scale farming, establishing an agri-business, or future residential development as the area rapidly transforms.",
+    "amenities": [
+      {
+        "id": "am-083",
+        "name": "Tube Well",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-084",
+        "name": "Boundary Wall (3 sides)",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-085",
+        "name": "Highway Frontage",
+        "category": "convenience"
+      },
+      {
+        "id": "am-086",
+        "name": "Rich Alluvial Soil",
+        "category": "agriculture"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-012-1",
+        "url": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-012-2",
+        "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-012",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-09-20T09:00:00+05:30",
+    "updatedAt": "2026-09-30T09:00:00+05:30"
+  },
+  {
+    "id": "prop-013",
+    "slug": "commercial-plot-sector-62-noida",
+    "title": "Commercial Plot in Sector 62, Noida",
+    "listingType": "sale",
+    "category": "land",
+    "subcategory": "commercial_plot",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": false,
+    "isPremium": false,
+    "isNew": false,
+    "price": {
+      "amount": 9500000,
+      "currency": "INR",
+      "isNegotiable": false,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 500,
+      "unit": "sqyd"
+    },
+    "location": {
+      "address": "Sector 62 Commercial Belt",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201309",
+      "landmark": "Near Sector 62 IT Hub, Noida",
+      "lat": 28.6234,
+      "lng": 77.3756
+    },
+    "facing": "North",
+    "description": "A strategically located 500 sq yd commercial plot in the heart of Sector 62, Noida - one of NCR's busiest IT and commercial districts. The plot has a wide road frontage, allowing for maximum visibility and footfall, and is zoned for mixed commercial use including retail, offices, and hotels. Surrounded by MNCs, retail centres, and residential catchments, this is an outstanding opportunity to develop or invest in a high-return commercial asset. Noida Authority allotted with clear lease deed.",
+    "amenities": [
+      {
+        "id": "am-087",
+        "name": "Wide Road Frontage",
+        "category": "convenience"
+      },
+      {
+        "id": "am-088",
+        "name": "Commercial Zone Approved",
+        "category": "legal"
+      },
+      {
+        "id": "am-089",
+        "name": "NA Plot",
+        "category": "legal"
+      },
+      {
+        "id": "am-090",
+        "name": "Underground Utilities",
+        "category": "infrastructure"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-013-1",
+        "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-013-2",
+        "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-013",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-07-30T10:00:00+05:30",
+    "updatedAt": "2026-09-28T13:00:00+05:30"
+  },
+  {
+    "id": "prop-014",
+    "slug": "residential-plot-greater-noida",
+    "title": "Residential Plot in Greater Noida",
+    "listingType": "sale",
+    "category": "land",
+    "subcategory": "plot",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": false,
+    "isPremium": false,
+    "isNew": true,
+    "price": {
+      "amount": 1200000,
+      "currency": "INR",
+      "isNegotiable": true,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 150,
+      "unit": "gaj"
+    },
+    "location": {
+      "address": "Gamma II",
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201310",
+      "landmark": "Near Gamma II Crossing, Greater Noida",
+      "lat": 28.4745,
+      "lng": 77.504
+    },
+    "facing": "West",
+    "description": "A 150 Gaj GNIDA-allotted residential plot in the planned Gamma-II sector of Greater Noida, offering excellent value in a fully developed residential neighbourhood. The sector features wide roads, parks, schools, and markets within walking distance. The plot is rectangular in shape with a 30-foot road frontage and has all utilities connected right up to the boundary. GNIDA lease deed available, with no dues certificate from the authority, ensuring a smooth transfer.",
+    "amenities": [
+      {
+        "id": "am-091",
+        "name": "GNIDA Allotted",
+        "category": "legal"
+      },
+      {
+        "id": "am-092",
+        "name": "30-Foot Road Frontage",
+        "category": "convenience"
+      },
+      {
+        "id": "am-093",
+        "name": "Park Adjacent",
+        "category": "recreation"
+      },
+      {
+        "id": "am-094",
+        "name": "Utilities Connected",
+        "category": "infrastructure"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-014-1",
+        "url": "https://images.unsplash.com/photo-1500076656116-558758c991c1?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-014-2",
+        "url": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-014",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-09-15T11:00:00+05:30",
+    "updatedAt": "2026-09-29T11:00:00+05:30"
+  },
+  {
+    "id": "prop-015",
+    "slug": "industrial-land-greater-noida",
+    "title": "Industrial Land in Greater Noida",
+    "listingType": "sale",
+    "category": "industrial",
+    "subcategory": "industrial",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": false,
+    "isPremium": false,
+    "isNew": false,
+    "price": {
+      "amount": 8500000,
+      "currency": "INR",
+      "isNegotiable": false,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 1,
+      "unit": "acre"
+    },
+    "location": {
+      "address": "Industrial Development Area",
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201308",
+      "landmark": "GNIDA Industrial Area, Phase II",
+      "lat": 28.5068,
+      "lng": 77.555
+    },
+    "facing": "South",
+    "description": "One acre of prime industrial land in the GNIDA Phase-II Industrial Development Area of Greater Noida, with excellent connectivity to NH-24, Delhi-Mumbai Industrial Corridor, and the Dedicated Freight Corridor. The plot is zoned for light and medium industrial use and comes with a 33 KV substation connection option, internal road access, and common effluent treatment plant proximity. Lease deed issued by GNIDA authority, making it fully compliant for setting up manufacturing, warehousing, or logistics operations.",
+    "amenities": [
+      {
+        "id": "am-095",
+        "name": "33 KV Power Availability",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-096",
+        "name": "Industrial Zone Approved",
+        "category": "legal"
+      },
+      {
+        "id": "am-097",
+        "name": "CETP Proximity",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-098",
+        "name": "Dedicated Freight Corridor Access",
+        "category": "convenience"
+      },
+      {
+        "id": "am-099",
+        "name": "NH-24 Connectivity",
+        "category": "convenience"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-015-1",
+        "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-015-2",
+        "url": "https://images.unsplash.com/photo-1553413077-190dd305871c?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-015",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-07-01T09:00:00+05:30",
+    "updatedAt": "2026-09-27T14:00:00+05:30"
+  },
+  {
+    "id": "prop-016",
+    "slug": "commercial-shop-sector-18-noida",
+    "title": "Commercial Shop in Sector 18, Noida",
+    "listingType": "sale",
+    "category": "commercial",
+    "subcategory": "shop",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": true,
+    "isPremium": false,
+    "isNew": false,
+    "price": {
+      "amount": 5500000,
+      "currency": "INR",
+      "isNegotiable": true,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 350,
+      "unit": "sqft"
+    },
+    "location": {
+      "address": "Sector 18 Market",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201301",
+      "landmark": "Atta Market, Sector 18, Noida",
+      "lat": 28.5709,
+      "lng": 77.3207
+    },
+    "facing": "East",
+    "description": "A prime ground-floor commercial shop in the bustling Sector 18 Atta Market - one of Noida's most prominent and high-footfall commercial hubs. The 350 sq ft shop has excellent glass frontage, a built-in storage room, and is part of a well-maintained complex with lift access and ample parking. Currently vacant and ready for fit-out, suitable for retail, showroom, bakery, or services. High rental yield potential of 4-5% per annum, with existing tenants in the complex running top national brands.",
+    "amenities": [
+      {
+        "id": "am-100",
+        "name": "Ground Floor",
+        "category": "convenience"
+      },
+      {
+        "id": "am-101",
+        "name": "Glass Frontage",
+        "category": "interior"
+      },
+      {
+        "id": "am-102",
+        "name": "Storage Room",
+        "category": "convenience"
+      },
+      {
+        "id": "am-103",
+        "name": "Ample Parking",
+        "category": "convenience"
+      },
+      {
+        "id": "am-104",
+        "name": "High Footfall Area",
+        "category": "commerce"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-016-1",
+        "url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-016-2",
+        "url": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-016",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-08-10T10:00:00+05:30",
+    "updatedAt": "2026-09-28T12:00:00+05:30"
+  },
+  {
+    "id": "prop-017",
+    "slug": "premium-office-space-cyber-city-gurugram",
+    "title": "Premium Office Space in Cyber City, Gurugram",
+    "listingType": "rent",
+    "category": "commercial",
+    "subcategory": "office",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": false,
+    "isPremium": true,
+    "isNew": false,
+    "price": {
+      "amount": 110000,
+      "currency": "INR",
+      "isNegotiable": false,
+      "priceType": "per_month",
+      "securityDeposit": 330000
+    },
+    "area": {
+      "value": 1200,
+      "unit": "sqft"
+    },
+    "location": {
+      "address": "Cyber City, DLF Phase 2",
+      "city": "Gurugram",
+      "state": "Haryana",
+      "pincode": "122002",
+      "landmark": "DLF Cyber City, MG Road Metro",
+      "lat": 28.4943,
+      "lng": 77.0889
+    },
+    "floor": 14,
+    "totalFloors": 25,
+    "facing": "North",
+    "furnishing": "furnished",
+    "description": "A fully furnished, plug-and-play premium office space in the iconic DLF Cyber City, Gurugram - the epicentre of India's corporate world. The 1,200 sq ft space comfortably accommodates 20-25 persons with dedicated workstations, a conference room, a pantry, and stunning city views from the 14th floor. The building offers Grade-A infrastructure including 100% power backup, high-speed internet connectivity, centralized air conditioning, and a three-tier security system. Walking distance from MG Road and Cyber City Metro stations - ideal for tech startups, consulting firms, or expanding MNCs.",
+    "amenities": [
+      {
+        "id": "am-105",
+        "name": "Plug & Play Ready",
+        "category": "convenience"
+      },
+      {
+        "id": "am-106",
+        "name": "Conference Room",
+        "category": "workspace"
+      },
+      {
+        "id": "am-107",
+        "name": "High-Speed Internet",
+        "category": "technology"
+      },
+      {
+        "id": "am-108",
+        "name": "100% Power Backup",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-109",
+        "name": "Central AC",
+        "category": "comfort"
+      },
+      {
+        "id": "am-110",
+        "name": "Pantry",
+        "category": "convenience"
+      },
+      {
+        "id": "am-111",
+        "name": "Reception Lobby",
+        "category": "convenience"
+      },
+      {
+        "id": "am-112",
+        "name": "Multi-tier Security",
+        "category": "security"
+      },
+      {
+        "id": "am-113",
+        "name": "Metro Proximity",
+        "category": "convenience"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-017-1",
+        "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-017-2",
+        "url": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-017",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-08-25T10:00:00+05:30",
+    "updatedAt": "2026-09-30T10:00:00+05:30"
+  },
+  {
+    "id": "prop-018",
+    "slug": "ground-floor-showroom-karol-bagh-delhi",
+    "title": "Ground Floor Showroom in Karol Bagh, Delhi",
+    "listingType": "sale",
+    "category": "commercial",
+    "subcategory": "showroom",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": false,
+    "isPremium": false,
+    "isNew": false,
+    "price": {
+      "amount": 28000000,
+      "currency": "INR",
+      "isNegotiable": true,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 2500,
+      "unit": "sqft"
+    },
+    "location": {
+      "address": "Ajmal Khan Road, Karol Bagh",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "pincode": "110005",
+      "landmark": "Near Karol Bagh Metro Station",
+      "lat": 28.6513,
+      "lng": 77.19
+    },
+    "floor": 0,
+    "totalFloors": 5,
+    "facing": "South-East",
+    "furnishing": "unfurnished",
+    "description": "A large 2,500 sq ft ground-floor showroom on the prime Ajmal Khan Road in Karol Bagh - Delhi's legendary shopping and commercial hub drawing millions of visitors every year. The showroom features a 50-foot wide glass-fronted double-height frontage, an open-plan floor ideal for any retail format, an in-built mezzanine storage area, and private restrooms. Situated between Karol Bagh and Rajendra Place Metro stations with abundant street and basement parking nearby. Exceptional for luxury retail, automobile showroom, or a flagship electronics or fashion brand.",
+    "amenities": [
+      {
+        "id": "am-114",
+        "name": "Double Height Frontage",
+        "category": "interior"
+      },
+      {
+        "id": "am-115",
+        "name": "Mezzanine Storage",
+        "category": "convenience"
+      },
+      {
+        "id": "am-116",
+        "name": "50-Ft Glass Frontage",
+        "category": "interior"
+      },
+      {
+        "id": "am-117",
+        "name": "High Footfall Market",
+        "category": "commerce"
+      },
+      {
+        "id": "am-118",
+        "name": "Metro Connectivity",
+        "category": "convenience"
+      },
+      {
+        "id": "am-119",
+        "name": "Private Restrooms",
+        "category": "convenience"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-018-1",
+        "url": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-018-2",
+        "url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-018",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-07-15T11:00:00+05:30",
+    "updatedAt": "2026-09-26T10:00:00+05:30"
+  },
+  {
+    "id": "prop-019",
+    "slug": "warehouse-space-greater-noida-rent",
+    "title": "Warehouse Space in Industrial Area, Greater Noida",
+    "listingType": "rent",
+    "category": "commercial",
+    "subcategory": "warehouse",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": false,
+    "isPremium": false,
+    "isNew": true,
+    "price": {
+      "amount": 85000,
+      "currency": "INR",
+      "isNegotiable": false,
+      "priceType": "per_month",
+      "securityDeposit": 255000
+    },
+    "area": {
+      "value": 5000,
+      "unit": "sqft"
+    },
+    "location": {
+      "address": "Industrial Development Area",
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201308",
+      "landmark": "GNIDA Industrial Area Phase I",
+      "lat": 28.5089,
+      "lng": 77.5466
+    },
+    "floor": 0,
+    "totalFloors": 1,
+    "facing": "East",
+    "furnishing": "unfurnished",
+    "description": "A spacious 5,000 sq ft ground-floor warehouse in the GNIDA Phase-I Industrial Area, perfectly suited for logistics, e-commerce fulfillment, manufacturing support, or cold-chain operations. The facility offers an 18-foot clear ceiling height, two loading bays with dock-level access, a dedicated office space of 300 sq ft, and 3-phase electricity with a 40 KVA transformer. The location provides swift access to NH-24, the Eastern Peripheral Expressway, and Greater Noida's road network, minimising last-mile delivery times across NCR.",
+    "amenities": [
+      {
+        "id": "am-120",
+        "name": "18-Ft Clear Ceiling",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-121",
+        "name": "2 Dock-Level Loading Bays",
+        "category": "logistics"
+      },
+      {
+        "id": "am-122",
+        "name": "3-Phase Electricity",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-123",
+        "name": "40 KVA Transformer",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-124",
+        "name": "Dedicated Office Space",
+        "category": "convenience"
+      },
+      {
+        "id": "am-125",
+        "name": "NH-24 Access",
+        "category": "convenience"
+      },
+      {
+        "id": "am-126",
+        "name": "CCTV Surveillance",
+        "category": "security"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-019-1",
+        "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-019-2",
+        "url": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-019",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-09-18T10:00:00+05:30",
+    "updatedAt": "2026-09-30T08:00:00+05:30"
+  },
+  {
+    "id": "prop-020",
+    "slug": "prime-commercial-building-connaught-place-delhi",
+    "title": "Prime Commercial Building in Central Delhi",
+    "listingType": "sale",
+    "category": "commercial",
+    "subcategory": "commercial_building",
+    "status": "available",
+    "verificationStatus": "verified",
+    "isFeatured": false,
+    "isPremium": true,
+    "isNew": false,
+    "price": {
+      "amount": 85000000,
+      "currency": "INR",
+      "isNegotiable": false,
+      "priceType": "fixed"
+    },
+    "area": {
+      "value": 12000,
+      "unit": "sqft"
+    },
+    "location": {
+      "address": "Connaught Place",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "pincode": "110001",
+      "landmark": "Inner Circle, Connaught Place, New Delhi",
+      "lat": 28.6315,
+      "lng": 77.2167
+    },
+    "floor": 0,
+    "totalFloors": 6,
+    "facing": "North",
+    "furnishing": "bare_shell",
+    "description": "A rare and prestigious freehold commercial building of 12,000 sq ft spread across 6 floors in the most coveted address in India - Connaught Place, Central Delhi. The building features a majestic heritage-style facade with modern interior columns, freight and passenger lifts, a large basement for parking, and individual floor-plate configurations of approximately 2,000 sq ft each. Ideal for a flagship corporate headquarters, boutique hotel, luxury retail brand, or a high-return investment asset. Strategically positioned within 200 metres of Rajiv Chowk Metro - India's busiest metro interchange - the footfall potential is unmatched in the entire country.",
+    "amenities": [
+      {
+        "id": "am-127",
+        "name": "Heritage Facade",
+        "category": "architecture"
+      },
+      {
+        "id": "am-128",
+        "name": "Passenger & Freight Lifts",
+        "category": "convenience"
+      },
+      {
+        "id": "am-129",
+        "name": "Basement Parking",
+        "category": "convenience"
+      },
+      {
+        "id": "am-130",
+        "name": "Individual Floor Plates",
+        "category": "flexibility"
+      },
+      {
+        "id": "am-131",
+        "name": "Rajiv Chowk Metro 200m",
+        "category": "convenience"
+      },
+      {
+        "id": "am-132",
+        "name": "100% Power Backup",
+        "category": "infrastructure"
+      },
+      {
+        "id": "am-133",
+        "name": "Freehold Title",
+        "category": "legal"
+      },
+      {
+        "id": "am-134",
+        "name": "Fire NOC Available",
+        "category": "safety"
+      }
+    ],
+    "media": [
+      {
+        "id": "m-020-1",
+        "url": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=1200&q=80",
+        "type": "image",
+        "isCover": true,
+        "order": 0
+      },
+      {
+        "id": "m-020-2",
+        "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80",
+        "type": "image",
+        "isCover": false,
+        "order": 1
+      }
+    ],
+    "advertiser": {
+      "id": "adv-020",
+      "name": "Indra Properties & Enterprises",
+      "type": "agency",
+      "phone": "+91 8460209025",
+      "email": "contact@indraproperties.com",
+      "isVerified": true,
+      "profileImage": null,
+      "agencyName": "Indra Properties & Enterprises",
+      "verificationStatus": "verified",
+      "totalListings": 26,
+      "responseTime": "Quick Response"
+    },
+    "postedAt": "2026-04-01T09:00:00+05:30",
+    "updatedAt": "2026-09-30T10:00:00+05:30"
+  }
+]
