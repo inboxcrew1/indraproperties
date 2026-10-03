@@ -17,7 +17,7 @@ import {
 export const metadata: Metadata = {
   title: 'Property in Bulandshahr | Plots, Houses, Commercial & Agricultural Land',
   description:
-    'Explore verified properties in Bulandshahr with Indra Properties & Enterprises. Residential plots near Bhoor Chauraha, commercial shops in Transport Nagar, houses, and fertile agricultural land.',
+    'Explore verified properties in Bulandshahr with Shree Maruti Nandan Properties. Residential plots near Bhoor Chauraha, commercial shops in Transport Nagar, houses, and fertile agricultural land.',
   keywords: [
     'Property in Bulandshahr',
     'Plots in Bulandshahr',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     'Transport Nagar Bulandshahr',
     'Houses for sale in Bulandshahr',
     'Agricultural land Bulandshahr',
-    'Indra Properties & Enterprises',
+    'Shree Maruti Nandan Properties',
   ],
 }
 
@@ -56,7 +56,7 @@ export default function BulandshahrPropertyPage() {
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald text-white text-xs font-bold uppercase tracking-wider mb-4">
               <MapPin size={13} />
-              <span>Indra Properties &amp; Enterprises Head Office Market</span>
+              <span>Shree Maruti Nandan Properties Head Office Market</span>
             </div>
 
             <h1 className="font-display text-4xl sm:text-5xl font-bold leading-tight mb-4">
@@ -78,7 +78,7 @@ export default function BulandshahrPropertyPage() {
               </a>
 
               <a
-                href="https://wa.me/918460209025?text=Hello%20Indra%20Properties%20%26%20Enterprises,%20I%20am%20interested%20in%20Bulandshahr%20properties."
+                href="https://wa.me/918460209025?text=Hello%20Shree%20Maruti%20Nandan%20Properties,%20I%20am%20interested%20in%20Bulandshahr%20properties."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-xl text-xs sm:text-sm font-semibold border border-white/20 transition-colors"
@@ -145,7 +145,7 @@ export default function BulandshahrPropertyPage() {
             </h3>
             <p className="text-gray-600 text-sm leading-relaxed font-light">
               Not all available local land parcels or properties are listed publicly due to owner privacy. 
-              Contact Indra Properties &amp; Enterprises directly or visit our office near Bhoor Chauraha to discuss custom requirements.
+              Contact Shree Maruti Nandan Properties directly or visit our office near Bhoor Chauraha to discuss custom requirements.
             </p>
             <div className="space-y-2 text-xs text-gray-600">
               <div className="flex items-center gap-2">

@@ -27,14 +27,14 @@ export async function generateMetadata({ params }: PropertyPageProps): Promise<M
 
   if (!property) {
     return {
-      title: 'Property Not Found | Indra Properties & Enterprises',
+      title: 'Property Not Found | Shree Maruti Nandan Properties',
       description: 'The requested real estate property could not be found.',
     }
   }
 
   const priceStr = formatPrice(property.price.amount)
   const areaStr = formatArea(property.area.value, property.area.unit)
-  const title = `${property.title} | ${priceStr} | Indra Properties & Enterprises`
+  const title = `${property.title} | ${priceStr} | Shree Maruti Nandan Properties`
   const locality = property.location.locality || property.location.city
   const description = `${property.title} located in ${locality}, ${property.location.city}. Area: ${areaStr}. Price: ${priceStr}. Explore high-resolution photos, verified details, map, and amenities.`
 
@@ -107,7 +107,7 @@ export default async function PropertyDetailPage({ params }: PropertyPageProps) 
     '@type': 'RealEstateListing',
     name: property.title,
     description: property.description,
-    url: `https://indraproperties.com/properties/${property.slug}`,
+    url: `https://shreemarutinandanproperties.com/properties/${property.slug}`,
     image: property.media?.map(m => m.url),
     offers: {
       '@type': 'Offer',
@@ -211,7 +211,7 @@ export default async function PropertyDetailPage({ params }: PropertyPageProps) 
                   About this Property
                 </h2>
                 <div className="prose text-gray-600 text-sm sm:text-base leading-relaxed whitespace-pre-line">
-                  {property.description || 'Verified property listing with Indra Properties & Enterprises. Contact our agency desk for complete inspection and accompanied site visits.'}
+                  {property.description || 'Verified property listing with Shree Maruti Nandan Properties. Contact our agency desk for complete inspection and accompanied site visits.'}
                 </div>
               </div>
 

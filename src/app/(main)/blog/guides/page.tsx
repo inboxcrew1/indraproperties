@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { BookOpen, ShieldCheck, CheckCircle2, ArrowRight, FileCheck, MapPin } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Property Buyer Guides & Due Diligence Checklists | Indra Properties & Enterprises',
+  title: 'Property Buyer Guides & Due Diligence Checklists | Shree Maruti Nandan Properties',
   description: 'Step-by-step buyer guides for purchasing plots, flats, and commercial properties in Uttar Pradesh, Haryana, and Delhi-NCR.',
 }
 

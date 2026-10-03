@@ -19,7 +19,7 @@ export default function PropertyShareModal({ title, url, onClose }: PropertyShar
   }
 
   const encodedUrl = encodeURIComponent(url)
-  const encodedTitle = encodeURIComponent(`Check out this property with Indra Properties & Enterprises: ${title}`)
+  const encodedTitle = encodeURIComponent(`Check out this property with Shree Maruti Nandan Properties: ${title}`)
 
   const shareChannels = [
     {

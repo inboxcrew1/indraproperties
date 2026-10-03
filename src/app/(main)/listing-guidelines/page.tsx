@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { FileText, CheckCircle2, XCircle, AlertTriangle, ArrowRight } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Property Listing Guidelines | Indra Properties & Enterprises',
-  description: 'Standards and guidelines for property owners, verified brokers, and developers listing real estate on Indra Properties & Enterprises.',
+  title: 'Property Listing Guidelines | Shree Maruti Nandan Properties',
+  description: 'Standards and guidelines for property owners, verified brokers, and developers listing real estate on Shree Maruti Nandan Properties.',
 }
 
 export default function ListingGuidelinesPage() {
@@ -21,7 +21,7 @@ export default function ListingGuidelinesPage() {
             Listing Guidelines
           </h1>
           <p className="text-gray-500 text-sm">
-            To preserve Indra Properties & Enterprises as a premier, high-trust marketplace, all submitted property listings must adhere to these transparency standards.
+            To preserve Shree Maruti Nandan Properties as a premier, high-trust marketplace, all submitted property listings must adhere to these transparency standards.
           </p>
         </div>
 
@@ -72,7 +72,7 @@ export default function ListingGuidelinesPage() {
           <section>
             <h2 className="font-display text-xl font-bold text-charcoal mb-3">2. Moderation &amp; Delisting Policy</h2>
             <p className="text-gray-600">
-              Indra Properties & Enterprises moderation algorithms and regional coordinators inspect new submissions within 24 hours. Any listing reported multiple times by verified buyers for false pricing, unavailable inventory, or misrepresentation will be suspended immediately pending re-verification.
+              Shree Maruti Nandan Properties moderation algorithms and regional coordinators inspect new submissions within 24 hours. Any listing reported multiple times by verified buyers for false pricing, unavailable inventory, or misrepresentation will be suspended immediately pending re-verification.
             </p>
           </section>
 

@@ -18,7 +18,7 @@ export default function LoginPage() {
     e.preventDefault()
     // Mock login and redirect to dashboard
     localStorage.setItem(
-      'indra_user',
+      'smnp_user',
       JSON.stringify({
         id: 'usr-123',
         name: emailOrPhone.split('@')[0] || 'Rahul Sharma',
@@ -38,13 +38,12 @@ export default function LoginPage() {
       <div className="bg-white rounded-3xl border border-gray-100 p-8 sm:p-10 max-w-md w-full shadow-xl">
         {/* Brand Header */}
         <div className="text-center mb-8">
-          <Link href="/" className="inline-flex items-center gap-2 mb-3">
-            <div className="w-10 h-10 bg-emerald rounded-xl flex items-center justify-center shadow-sm">
-              <Home size={22} className="text-white" />
-            </div>
-            <span className="text-2xl font-bold">
-              <span className="text-emerald">Ghar</span>Dhundo
-            </span>
+          <Link href="/" className="inline-flex items-center gap-2 mb-4 group" aria-label="Shree Maruti Nandan Properties Home">
+            <img
+              src="/images/logo.png"
+              alt="Shree Maruti Nandan Properties"
+              className="h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
+            />
           </Link>
           <h1 className="font-display text-2xl font-bold text-charcoal">
             Welcome Back

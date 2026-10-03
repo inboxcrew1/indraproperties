@@ -4,7 +4,7 @@ import { properties } from '@/lib/data/properties'
 import PropertySearchResults from '@/components/search/PropertySearchResults'
 
 export const metadata: Metadata = {
-  title: 'Search Properties in India | Indra Properties & Enterprises',
+  title: 'Search Properties in India | Shree Maruti Nandan Properties',
   description: 'Explore verified residential plots, apartments, villas, farm houses, agricultural land, and commercial properties across North India.',
 }
 

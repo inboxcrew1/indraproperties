@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Building2, Calendar, MapPin, ShieldCheck, ArrowRight } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'New Projects & Master Townships in NCR | Indra Properties & Enterprises',
+  title: 'New Projects & Master Townships in NCR | Shree Maruti Nandan Properties',
   description: 'Explore upcoming and ready-to-move RERA registered townships, plotted projects, and luxury residential societies across Noida, Greater Noida, and Gurugram.',
 }
 

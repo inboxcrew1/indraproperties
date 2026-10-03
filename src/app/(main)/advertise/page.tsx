@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { Megaphone, Target, CheckCircle2, TrendingUp, ShieldCheck, Mail, Phone, ArrowRight } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Advertise & Partner with Indra Properties & Enterprises | Developer Marketing & Lead Solutions',
-  description: 'Reach high-intent property buyers, NRIs, and land investors across Delhi-NCR, Bulandshahr, and Uttar Pradesh with Indra Properties & Enterprises marketing packages.',
+  title: 'Advertise & Partner with Shree Maruti Nandan Properties | Developer Marketing & Lead Solutions',
+  description: 'Reach high-intent property buyers, NRIs, and land investors across Delhi-NCR, Bulandshahr, and Uttar Pradesh with Shree Maruti Nandan Properties marketing packages.',
 }
 
 export default function AdvertisePage() {
@@ -80,7 +80,7 @@ export default function AdvertisePage() {
                 </ul>
               </div>
               <a
-                href="mailto:advertise@indraproperties.com?subject=Enquiry:%20Plotted%20Colony%20Package"
+                href="mailto:advertise@shreemarutinandanproperties.com?subject=Enquiry:%20Plotted%20Colony%20Package"
                 className="w-full py-2.5 bg-gray-100 hover:bg-emerald hover:text-white text-charcoal text-xs font-semibold rounded-xl text-center transition-colors"
               >
                 Inquire Package
@@ -105,7 +105,7 @@ export default function AdvertisePage() {
                 </ul>
               </div>
               <a
-                href="mailto:advertise@indraproperties.com?subject=Enquiry:%20Township%20Showcase%20Package"
+                href="mailto:advertise@shreemarutinandanproperties.com?subject=Enquiry:%20Township%20Showcase%20Package"
                 className="w-full py-2.5 bg-emerald hover:bg-emerald-dark text-white text-xs font-semibold rounded-xl text-center transition-colors"
               >
                 Book Township Showcase
@@ -127,7 +127,7 @@ export default function AdvertisePage() {
                 </ul>
               </div>
               <a
-                href="mailto:advertise@indraproperties.com?subject=Enquiry:%20Agency%20Network"
+                href="mailto:advertise@shreemarutinandanproperties.com?subject=Enquiry:%20Agency%20Network"
                 className="w-full py-2.5 bg-gray-100 hover:bg-emerald hover:text-white text-charcoal text-xs font-semibold rounded-xl text-center transition-colors"
               >
                 Join Broker Network
@@ -151,7 +151,7 @@ export default function AdvertisePage() {
               <span>+91 98765 43210</span>
             </a>
             <a
-              href="mailto:partnerships@indraproperties.com"
+              href="mailto:partnerships@shreemarutinandanproperties.com"
               className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-emerald text-white text-xs font-semibold hover:bg-emerald-dark"
             >
               <Mail size={14} />

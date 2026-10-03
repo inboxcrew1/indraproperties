@@ -4,7 +4,7 @@ import { properties } from '@/lib/data/properties'
 import PropertySearchResults from '@/components/search/PropertySearchResults'
 
 export const metadata: Metadata = {
-  title: 'Commercial Properties for Sale & Rent | Offices, Shops, Warehouses | Indra Properties & Enterprises',
+  title: 'Commercial Properties for Sale & Rent | Offices, Shops, Warehouses | Shree Maruti Nandan Properties',
   description: 'Discover commercial office spaces, retail shops, showrooms, warehouses, and commercial buildings in Gurugram, Delhi, and Noida.',
 }
 

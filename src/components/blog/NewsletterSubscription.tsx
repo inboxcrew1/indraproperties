@@ -18,7 +18,7 @@ export default function NewsletterSubscription() {
     return (
       <div className="flex items-center justify-center gap-2 text-emerald-light bg-emerald/20 px-6 py-3 rounded-xl max-w-md mx-auto text-xs font-semibold border border-emerald/30">
         <CheckCircle2 size={16} />
-        <span>Thank you for subscribing to Indra Properties & Enterprises Property Intelligence!</span>
+        <span>Thank you for subscribing to Shree Maruti Nandan Properties Property Intelligence!</span>
       </div>
     )
   }

@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { HelpCircle, Search, MessageSquare, PlusCircle, ShieldCheck, Calculator, ArrowRight } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Help Center & Frequently Asked Questions | Indra Properties & Enterprises',
-  description: 'Find answers to common questions about buying plots, flats, scheduling visits, verifying land papers, and listing properties on Indra Properties & Enterprises.',
+  title: 'Help Center & Frequently Asked Questions | Shree Maruti Nandan Properties',
+  description: 'Find answers to common questions about buying plots, flats, scheduling visits, verifying land papers, and listing properties on Shree Maruti Nandan Properties.',
 }
 
 const faqs = [
@@ -17,7 +17,7 @@ const faqs = [
       },
       {
         q: 'What does the "Verified" badge mean on a property?',
-        a: 'A verified listing on Indra Properties & Enterprises means that our verification team has validated the owner or agent’s mobile number, verified location coordinates on satellite maps, and reviewed supporting documents (such as registry copies or RERA certificates) to prevent phantom listings.'
+        a: 'A verified listing on Shree Maruti Nandan Properties means that our verification team has validated the owner or agent’s mobile number, verified location coordinates on satellite maps, and reviewed supporting documents (such as registry copies or RERA certificates) to prevent phantom listings.'
       },
       {
         q: 'How do I contact the advertiser or property owner directly?',
@@ -29,7 +29,7 @@ const faqs = [
     category: 'Listing & Selling',
     items: [
       {
-        q: 'Is it free to post a property listing on Indra Properties & Enterprises?',
+        q: 'Is it free to post a property listing on Shree Maruti Nandan Properties?',
         a: 'Yes, basic property listings for individual home owners and plot owners are completely free. You can list residential plots, kothis, builder floors, flats, and agricultural parcels in 6 straightforward steps.'
       },
       {

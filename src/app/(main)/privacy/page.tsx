@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Indra Properties & Enterprises',
-  description: 'Indra Properties & Enterprises Privacy Policy regarding user credentials, location data, and inquiry security.',
+  title: 'Privacy Policy | Shree Maruti Nandan Properties',
+  description: 'Shree Maruti Nandan Properties Privacy Policy regarding user credentials, location data, and inquiry security.',
 }
 
 export default function PrivacyPage() {

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Briefcase, MapPin, Users, Sparkles, HeartHandshake, ArrowRight } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Careers at Indra Properties & Enterprises | Build the Future of Indian PropTech',
+  title: 'Careers at Shree Maruti Nandan Properties | Build the Future of Indian PropTech',
   description: 'Join the team revolutionizing Indian real estate with radical transparency, verified plotting, and modern digital property experiences.',
 }
 
@@ -52,11 +52,11 @@ export default function CareersPage() {
             Build the Future of Indian Real Estate
           </h1>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
-            At Indra Properties & Enterprises, we are dismantling misleading listings and phantom properties to bring genuine transparency to Indian home buyers and land investors.
+            At Shree Maruti Nandan Properties, we are dismantling misleading listings and phantom properties to bring genuine transparency to Indian home buyers and land investors.
           </p>
         </div>
 
-        {/* Why Indra Properties & Enterprises */}
+        {/* Why Shree Maruti Nandan Properties */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           <div className="p-6 bg-white rounded-2xl border border-gray-100 shadow-sm space-y-3">
             <div className="w-10 h-10 rounded-xl bg-emerald/10 text-emerald flex items-center justify-center">
@@ -127,7 +127,7 @@ export default function CareersPage() {
 
                 <div className="flex-shrink-0">
                   <a
-                    href={`mailto:careers@indraproperties.com?subject=Application:%20${encodeURIComponent(role.title)}`}
+                    href={`mailto:careers@shreemarutinandanproperties.com?subject=Application:%20${encodeURIComponent(role.title)}`}
                     className="inline-flex items-center gap-2 px-5 py-2.5 bg-charcoal hover:bg-emerald text-white text-xs font-semibold rounded-xl transition-colors"
                   >
                     <span>Apply Now</span>
@@ -144,8 +144,8 @@ export default function CareersPage() {
           <h3 className="font-display text-xl font-bold text-charcoal">Don&apos;t see your role?</h3>
           <p className="text-xs sm:text-sm text-gray-600 max-w-md mx-auto">
             We are always eager to meet high-caliber engineers, surveyors, and growth leaders. Email your portfolio or resume to{' '}
-            <a href="mailto:careers@indraproperties.com" className="font-semibold text-emerald underline">
-              careers@indraproperties.com
+            <a href="mailto:careers@shreemarutinandanproperties.com" className="font-semibold text-emerald underline">
+              careers@shreemarutinandanproperties.com
             </a>.
           </p>
         </div>

@@ -23,7 +23,7 @@ export default function ServicesOverview() {
             Property Buying &amp; Selling Services
           </h2>
           <p className="text-gray-600 text-sm sm:text-base mt-2 font-normal">
-            Whether acquiring your next property or presenting your asset to qualified buyers, Indra Properties &amp; Enterprises offers dedicated end-to-end guidance.
+            Whether acquiring your next property or presenting your asset to qualified buyers, Shree Maruti Nandan Properties offers dedicated end-to-end guidance.
           </p>
         </div>
 

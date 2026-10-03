@@ -1,4 +1,4 @@
-# Indra Properties (GharDhundo) - World-Class Indian Real Estate Marketplace
+# Shree Maruti Nandan Properties - World-Class Indian Real Estate Marketplace
 
 A production-ready, multi-page real estate marketplace platform tailored specifically for the Indian real estate market, featuring residential plots, flats, luxury villas, builder floors, farm lands, agricultural parcels, commercial shops, showrooms, offices, warehouses, and master townships.
 

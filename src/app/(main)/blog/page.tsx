@@ -4,7 +4,7 @@ import { BookOpen, Calendar, Clock, ArrowRight, TrendingUp, Compass, Award } fro
 import NewsletterSubscription from '@/components/blog/NewsletterSubscription'
 
 export const metadata: Metadata = {
-  title: 'Real Estate Blog & Guides | Indian Property Intelligence | Indra Properties & Enterprises',
+  title: 'Real Estate Blog & Guides | Indian Property Intelligence | Shree Maruti Nandan Properties',
   description: 'Expert market insights, legal due diligence checklists, land registry guides, and investment analyses for home buyers and plot investors across India.',
 }
 

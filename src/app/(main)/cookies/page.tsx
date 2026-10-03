@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { Shield, Cookie, CheckCircle2 } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Cookie Policy | Indra Properties & Enterprises',
-  description: 'Understand how Indra Properties & Enterprises uses cookies and tracking technologies to enhance your property discovery experience.',
+  title: 'Cookie Policy | Shree Maruti Nandan Properties',
+  description: 'Understand how Shree Maruti Nandan Properties uses cookies and tracking technologies to enhance your property discovery experience.',
 }
 
 export default function CookiesPage() {
@@ -21,7 +21,7 @@ export default function CookiesPage() {
             Cookie Policy
           </h1>
           <p className="text-gray-500 text-sm">
-            Last Updated: January 2026 &bull; Effective for all Indra Properties & Enterprises visitors and account holders
+            Last Updated: January 2026 &bull; Effective for all Shree Maruti Nandan Properties visitors and account holders
           </p>
         </div>
 
@@ -34,7 +34,7 @@ export default function CookiesPage() {
           </section>
 
           <section>
-            <h2 className="font-display text-xl font-bold text-charcoal mb-3">2. How Indra Properties & Enterprises Uses Cookies</h2>
+            <h2 className="font-display text-xl font-bold text-charcoal mb-3">2. How Shree Maruti Nandan Properties Uses Cookies</h2>
             <p className="text-gray-600 mb-4">
               We prioritize privacy and limit cookie usage strictly to essential platform functions and anonymous performance analytics:
             </p>

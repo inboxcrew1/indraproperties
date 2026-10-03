@@ -19,7 +19,7 @@ export default function EnquiriesPage() {
 
   useEffect(() => {
     try {
-      const stored = JSON.parse(localStorage.getItem('indra_enquiries') || '[]')
+      const stored = JSON.parse(localStorage.getItem('smnp_enquiries') || '[]')
       const demoEnquiries: EnquiryItem[] = [
         {
           id: 'demo-1',
@@ -106,7 +106,7 @@ export default function EnquiriesPage() {
               </a>
               <a
                 href={`https://wa.me/91${enq.senderPhone}?text=${encodeURIComponent(
-                  `Hi ${enq.senderName}, thank you for your enquiry regarding "${enq.propertyTitle}" on Indra Properties & Enterprises.`
+                  `Hi ${enq.senderName}, thank you for your enquiry regarding "${enq.propertyTitle}" on Shree Maruti Nandan Properties.`
                 )}`}
                 target="_blank"
                 rel="noreferrer"

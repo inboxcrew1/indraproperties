@@ -13,7 +13,7 @@ export default function ComparePage() {
   useEffect(() => {
     try {
       const storedIds: string[] = JSON.parse(
-        localStorage.getItem('indra_compare') || localStorage.getItem('indra_compare') || '[]'
+        localStorage.getItem('smnp_compare') || localStorage.getItem('smnp_compare') || '[]'
       )
       const matched = properties.filter((p) => storedIds.includes(p.id))
       // If none selected, default to the first 2 properties as demonstration
@@ -31,7 +31,7 @@ export default function ComparePage() {
     const updated = comparedProperties.filter((p) => p.id !== id)
     setComparedProperties(updated)
     try {
-      localStorage.setItem('indra_compare', JSON.stringify(updated.map((p) => p.id)))
+      localStorage.setItem('smnp_compare', JSON.stringify(updated.map((p) => p.id)))
     } catch (e) {
       console.error(e)
     }
@@ -41,7 +41,7 @@ export default function ComparePage() {
     const sample = properties.slice(0, 3)
     setComparedProperties(sample)
     try {
-      localStorage.setItem('indra_compare', JSON.stringify(sample.map((p) => p.id)))
+      localStorage.setItem('smnp_compare', JSON.stringify(sample.map((p) => p.id)))
     } catch (e) {
       console.error(e)
     }

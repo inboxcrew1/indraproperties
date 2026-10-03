@@ -33,11 +33,11 @@ export default function Header() {
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-13 sm:h-14">
             {/* Official Transparent Brand Logo */}
-            <Link href="/" className="flex items-center flex-shrink-0 group" aria-label="Indra Properties & Enterprises Home">
+            <Link href="/" className="flex items-center flex-shrink-0 group" aria-label="Shree Maruti Nandan Properties Home">
               <img
                 src="/images/logo.png"
-                alt="Indra Properties & Enterprises - For Your Generation"
-                className="h-7 sm:h-8 md:h-[35px] w-auto max-h-9 object-contain transition-transform duration-200 group-hover:scale-105"
+                alt="Shree Maruti Nandan Properties"
+                className="h-8 sm:h-9 md:h-[38px] w-auto max-h-10 object-contain transition-transform duration-200 group-hover:scale-105"
               />
             </Link>
 
@@ -70,7 +70,7 @@ export default function Header() {
               <a
                 href="tel:+918460209025"
                 className="hidden md:inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold border border-gray-300 bg-gray-50 text-gray-900 hover:border-emerald hover:text-emerald hover:bg-emerald/5 transition-all shadow-2xs"
-                title="Call Indra Properties & Enterprises"
+                title="Call Shree Maruti Nandan Properties"
               >
                 <Phone size={14} className="text-emerald" />
                 <span>+91 8460209025</span>
@@ -129,12 +129,12 @@ export default function Header() {
                 href="/"
                 onClick={() => setMobileMenuOpen(false)}
                 className="flex items-center gap-2"
-                aria-label="Indra Properties & Enterprises Home"
+                aria-label="Shree Maruti Nandan Properties Home"
               >
                 <img
                   src="/images/logo.png"
-                  alt="Indra Properties & Enterprises - For Your Generation"
-                  className="h-7 sm:h-8 w-auto max-h-8 object-contain"
+                  alt="Shree Maruti Nandan Properties"
+                  className="h-8 sm:h-9 w-auto max-h-9 object-contain"
                 />
               </Link>
               <button
@@ -156,7 +156,7 @@ export default function Header() {
                 <span>Call +91 8460209025</span>
               </a>
               <a
-                href="https://wa.me/918460209025?text=Hello%20Indra%20Properties%20%26%20Enterprises,%20I%20would%20like%20to%20enquire%20about%20properties."
+                href="https://wa.me/918460209025?text=Hello%20Shree%20Maruti%20Nandan%20Properties,%20I%20would%20like%20to%20enquire%20about%20properties."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full py-2.5 bg-emerald/10 text-emerald-dark border border-emerald/20 rounded-xl text-xs font-bold hover:bg-emerald/20 transition-colors"

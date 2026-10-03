@@ -101,12 +101,12 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
 
   if (!data) {
     return {
-      title: 'Properties by City | Indra Properties & Enterprises',
+      title: 'Properties by City | Shree Maruti Nandan Properties',
     }
   }
 
   return {
-    title: `Property in ${data.name} | Real Estate, Plots & Flats | Indra Properties & Enterprises`,
+    title: `Property in ${data.name} | Real Estate, Plots & Flats | Shree Maruti Nandan Properties`,
     description: `Discover verified real estate in ${data.name}, ${data.state}. Search residential plots, flats for sale, farm land, and commercial property with transparent rates.`,
   }
 }

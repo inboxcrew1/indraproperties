@@ -17,12 +17,12 @@ import ContactCTASection from '@/components/home/ContactCTASection'
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'Indra Properties & Enterprises | Real Estate Property Dealer in Bulandshahr',
+    absolute: 'Shree Maruti Nandan Properties | Real Estate Property Dealer in Bulandshahr',
   },
   description:
-    'Explore residential, commercial, agricultural properties, plots, houses, flats and rental properties with Indra Properties & Enterprises in Bulandshahr and surrounding areas.',
+    'Explore residential, commercial, agricultural properties, plots, houses, flats and rental properties with Shree Maruti Nandan Properties in Bulandshahr and surrounding areas.',
   keywords: [
-    'Indra Properties & Enterprises',
+    'Shree Maruti Nandan Properties',
     'Real estate agent in Bulandshahr',
     'Property dealer in Bulandshahr',
     'Property consultant in Bulandshahr',
@@ -43,7 +43,7 @@ export default function HomePage() {
       {/* 2 & 3: Cinematic Hero & Property Search */}
       <HeroSection />
 
-      {/* 4: Intro to Indra Properties & Enterprises ("Your Local Property Partner") */}
+      {/* 4: Intro to Shree Maruti Nandan Properties ("Your Local Property Partner") */}
       <AgencyIntro />
 
       {/* 5: Property Categories */}
@@ -70,7 +70,7 @@ export default function HomePage() {
       {/* 12: Explore Locations */}
       <ExploreByLocation />
 
-      {/* 13: Why Choose Indra Properties & Enterprises */}
+      {/* 13: Why Choose Shree Maruti Nandan Properties */}
       <WhyUsSection />
 
       {/* 14: Property Buying/Selling Services */}

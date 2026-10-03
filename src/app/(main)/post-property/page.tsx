@@ -167,7 +167,7 @@ export default function PostPropertyPage() {
       totalFloors: category === 'residential' ? totalFloors : undefined,
       isCornerPlot: category === 'land' ? isCornerPlot : undefined,
       hasBoundaryWall: category === 'land' ? hasBoundaryWall : undefined,
-      description: description || 'Prime property submitted to Indra Properties & Enterprises. Physical inspection and title verification available upon request.',
+      description: description || 'Prime property submitted to Shree Maruti Nandan Properties. Physical inspection and title verification available upon request.',
       amenities: [
         { id: 'am-1', name: 'Road Connectivity', category: 'convenience' },
         { id: 'am-2', name: 'Electricity Available', category: 'convenience' },
@@ -185,7 +185,7 @@ export default function PostPropertyPage() {
         name: ownerName || 'Property Advertiser',
         type: advertiserType,
         phone: ownerPhone || '8460209025',
-        email: ownerEmail || 'contact@indraproperties.com',
+        email: ownerEmail || 'contact@shreemarutinandanproperties.com',
         verificationStatus: 'unverified',
         totalListings: 1,
       },
@@ -195,9 +195,9 @@ export default function PostPropertyPage() {
 
     try {
       const stored = JSON.parse(
-        localStorage.getItem('indra_custom_properties') || localStorage.getItem('indra_custom_properties') || '[]'
+        localStorage.getItem('smnp_custom_properties') || localStorage.getItem('smnp_custom_properties') || '[]'
       )
-      localStorage.setItem('indra_custom_properties', JSON.stringify([newProperty, ...stored]))
+      localStorage.setItem('smnp_custom_properties', JSON.stringify([newProperty, ...stored]))
     } catch (err) {
       console.error(err)
     }

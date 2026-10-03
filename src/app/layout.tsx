@@ -3,13 +3,13 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Indra Properties & Enterprises',
-    default: 'Indra Properties & Enterprises | Real Estate Agency & Property Consultant in Bulandshahr',
+    template: '%s | Shree Maruti Nandan Properties',
+    default: 'Shree Maruti Nandan Properties | Real Estate Agency & Property Consultant in Bulandshahr',
   },
   description:
-    'Explore residential, commercial, agricultural properties, plots, houses, flats and rental properties with Indra Properties & Enterprises — your trusted real estate consultant in Bulandshahr and NCR.',
+    'Explore residential, commercial, agricultural properties, plots, houses, flats and rental properties with Shree Maruti Nandan Properties - your trusted real estate consultant in Bulandshahr and NCR.',
   keywords: [
-    'Indra Properties & Enterprises',
+    'Shree Maruti Nandan Properties',
     'Real estate agent in Bulandshahr',
     'Property dealer in Bulandshahr',
     'Property consultant in Bulandshahr',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'Greater Noida property',
   ],
   openGraph: {
-    siteName: 'Indra Properties & Enterprises',
+    siteName: 'Shree Maruti Nandan Properties',
     type: 'website',
     locale: 'en_IN',
   },

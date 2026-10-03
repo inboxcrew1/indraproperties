@@ -16,9 +16,9 @@ import {
 } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'About Us | Indra Properties & Enterprises Bulandshahr',
+  title: 'About Us | Shree Maruti Nandan Properties Bulandshahr',
   description:
-    'Learn about Indra Properties & Enterprises — a professional real estate agency and property consultancy based near Bhoor Chauraha, Bulandshahr, Uttar Pradesh. Specializing in residential, commercial and agricultural properties.',
+    'Learn about Shree Maruti Nandan Properties - a professional real estate agency and property consultancy based near Bhoor Chauraha, Bulandshahr, Uttar Pradesh. Specializing in residential, commercial and agricultural properties.',
 }
 
 export default function AboutPage() {
@@ -33,7 +33,7 @@ export default function AboutPage() {
           </div>
 
           <h1 className="font-display text-4xl sm:text-5xl font-bold text-charcoal leading-tight">
-            About Indra Properties &amp; Enterprises
+            About Shree Maruti Nandan Properties
           </h1>
 
           <p className="text-gray-600 text-sm sm:text-base mt-4 leading-relaxed font-light">
@@ -74,7 +74,7 @@ export default function AboutPage() {
               <div className="relative h-[380px] sm:h-[440px] w-full bg-gray-100 overflow-hidden">
                 <Image
                   src="/images/about/office-exterior.jpg"
-                  alt="Indra Properties & Enterprises Storefront & Signboard, Transport Nagar, Bulandshahr"
+                  alt="Shree Maruti Nandan Properties Storefront & Signboard, Transport Nagar, Bulandshahr"
                   fill
                   className="object-cover object-center hover:scale-102 transition-transform duration-500"
                   priority
@@ -87,7 +87,7 @@ export default function AboutPage() {
                     <span>Storefront &amp; Location</span>
                   </div>
                   <h3 className="font-display font-bold text-xl text-charcoal">
-                    Indra Properties &amp; Enterprises Office
+                    Shree Maruti Nandan Properties Office
                   </h3>
                   <p className="text-xs sm:text-sm text-gray-600 mt-2 leading-relaxed font-light">
                     Conveniently located at <strong>Shop No. 251, Near Gate No. 2, Transport Nagar</strong>, 
@@ -114,7 +114,7 @@ export default function AboutPage() {
               <div className="relative h-[380px] sm:h-[440px] w-full bg-gray-100 overflow-hidden">
                 <Image
                   src="/images/about/owner-office.jpg"
-                  alt="Personal Consultation Desk at Indra Properties & Enterprises, Bulandshahr"
+                  alt="Personal Consultation Desk at Shree Maruti Nandan Properties, Bulandshahr"
                   fill
                   className="object-cover object-top hover:scale-102 transition-transform duration-500"
                   priority
@@ -158,7 +158,7 @@ export default function AboutPage() {
 
             <div className="space-y-4 text-gray-600 text-sm sm:text-base leading-relaxed font-light">
               <p>
-                <strong>Indra Properties &amp; Enterprises</strong> is a Bulandshahr-based real estate agency 
+                <strong>Shree Maruti Nandan Properties</strong> is a Bulandshahr-based real estate agency 
                 and property consultancy helping clients explore residential, commercial, and agricultural properties.
               </p>
               <p>
@@ -244,7 +244,7 @@ export default function AboutPage() {
             </a>
 
             <a
-              href="https://wa.me/918460209025?text=Hello%20Indra%20Properties%20%26%20Enterprises,%20I%20would%20like%20to%20request%20a%20property%20consultation."
+              href="https://wa.me/918460209025?text=Hello%20Shree%20Maruti%20Nandan%20Properties,%20I%20would%20like%20to%20request%20a%20property%20consultation."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white rounded-xl text-xs sm:text-sm font-semibold border border-white/20 transition-colors"

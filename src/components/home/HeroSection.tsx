@@ -86,7 +86,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 z-0">
         <img
           src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=85"
-          alt="Indra Properties & Enterprises - Bulandshahr Real Estate"
+          alt="Shree Maruti Nandan Properties - Bulandshahr Real Estate"
           className="w-full h-full object-cover object-center"
         />
         {/* Layered cinematic architectural overlays */}
@@ -114,7 +114,7 @@ export default function HeroSection() {
           {/* Section 8: Supporting text */}
           <p className="text-gray-200 text-sm sm:text-base lg:text-lg mb-8 leading-relaxed max-w-2xl font-light">
             Explore residential, commercial and agricultural properties with{' '}
-            <strong className="font-semibold text-white">Indra Properties &amp; Enterprises</strong> —
+            <strong className="font-semibold text-white">Shree Maruti Nandan Properties</strong>,{' '}
             your local real estate consultant in Bulandshahr.
           </p>
 

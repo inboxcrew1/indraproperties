@@ -11,7 +11,7 @@ export default function AgencyIntro() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-gray-100">
               <img
                 src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1000&q=80"
-                alt="Indra Properties & Enterprises Bulandshahr Property Consultancy"
+                alt="Shree Maruti Nandan Properties Bulandshahr Property Consultancy"
                 className="w-full h-[420px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 via-transparent to-transparent" />
@@ -21,7 +21,7 @@ export default function AgencyIntro() {
                   <span>Bhoor Chauraha, Bulandshahr</span>
                 </div>
                 <h4 className="font-display text-xl font-bold">
-                  Indra Properties &amp; Enterprises
+                  Shree Maruti Nandan Properties
                 </h4>
                 <p className="text-gray-200 text-xs mt-1">
                   Serving buyers, sellers, landlords and investors across Western UP and NCR.
@@ -57,7 +57,7 @@ export default function AgencyIntro() {
             <div className="space-y-4 text-gray-600 text-sm sm:text-base leading-relaxed">
               <p>
                 Based near <strong className="text-charcoal font-semibold">Bhoor Chauraha in Bulandshahr</strong>, 
-                <strong className="text-charcoal font-semibold"> Indra Properties &amp; Enterprises</strong> is a 
+                <strong className="text-charcoal font-semibold"> Shree Maruti Nandan Properties</strong> is a 
                 professional real estate agency and property consultancy dedicated to guiding clients through every stage 
                 of their property journey.
               </p>

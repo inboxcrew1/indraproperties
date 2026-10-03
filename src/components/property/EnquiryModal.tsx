@@ -27,7 +27,7 @@ export default function EnquiryModal({ propertyId, propertyTitle, advertiserName
     // Simulate API request and store enquiry in localStorage
     setTimeout(() => {
       try {
-        const stored = JSON.parse(localStorage.getItem('indra_enquiries') || '[]')
+        const stored = JSON.parse(localStorage.getItem('smnp_enquiries') || '[]')
         const newEnquiry = {
           id: `enq-${Date.now()}`,
           propertyId,
@@ -40,7 +40,7 @@ export default function EnquiryModal({ propertyId, propertyTitle, advertiserName
           status: 'new',
           createdAt: new Date().toISOString(),
         }
-        localStorage.setItem('indra_enquiries', JSON.stringify([newEnquiry, ...stored]))
+        localStorage.setItem('smnp_enquiries', JSON.stringify([newEnquiry, ...stored]))
       } catch (err) {
         console.error(err)
       }
@@ -183,7 +183,7 @@ export default function EnquiryModal({ propertyId, propertyTitle, advertiserName
             </div>
 
             <p className="text-[10px] text-gray-400 text-center">
-              By submitting, you agree to Indra Properties &amp; Enterprises Terms of Service and Privacy Policy.
+              By submitting, you agree to Shree Maruti Nandan Properties Terms of Service and Privacy Policy.
             </p>
           </form>
         )}

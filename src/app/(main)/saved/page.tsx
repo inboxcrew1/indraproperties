@@ -14,7 +14,7 @@ export default function SavedPage() {
   useEffect(() => {
     try {
       const storedIds: string[] = JSON.parse(
-        localStorage.getItem('indra_saved') || localStorage.getItem('indra_saved') || '[]'
+        localStorage.getItem('smnp_saved') || localStorage.getItem('smnp_saved') || '[]'
       )
       const matched = properties.filter((p) => storedIds.includes(p.id))
       // If none saved yet, pre-populate with first 2 featured properties so user immediately sees how it looks!

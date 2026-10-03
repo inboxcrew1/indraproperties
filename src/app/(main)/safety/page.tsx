@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { ShieldCheck, AlertTriangle, FileText, CheckCircle2, Lock, Eye, Building } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Marketplace Safety & Legal Verification Guidelines | Indra Properties & Enterprises',
+  title: 'Marketplace Safety & Legal Verification Guidelines | Shree Maruti Nandan Properties',
   description: 'Practical guide to safe real estate transactions in India. Title verification, sub-registrar document checks, RERA approvals, and fraud prevention.',
 }
 
@@ -31,7 +31,7 @@ export default function SafetyPage() {
     },
     {
       title: 'Beware of Phishing & Fake Callers',
-      description: 'Indra Properties & Enterprises never asks for bank OTPs, credit card numbers, or advance courier fees over telephone calls. Only engage with verified advertisers on our platform.',
+      description: 'Shree Maruti Nandan Properties never asks for bank OTPs, credit card numbers, or advance courier fees over telephone calls. Only engage with verified advertisers on our platform.',
       icon: Lock,
     },
   ]

@@ -39,7 +39,7 @@ export default function ContactPage() {
           </div>
 
           <h1 className="font-display text-4xl sm:text-5xl font-bold text-charcoal leading-tight">
-            Contact Indra Properties &amp; Enterprises
+            Contact Shree Maruti Nandan Properties
           </h1>
 
           <p className="text-gray-600 text-sm sm:text-base mt-4 leading-relaxed font-light">
@@ -65,7 +65,7 @@ export default function ContactPage() {
 
           {/* WhatsApp */}
           <a
-            href="https://wa.me/918460209025?text=Hello%20Indra%20Properties%20%26%20Enterprises,%20I%20would%20like%20to%20enquire%20about%20properties."
+            href="https://wa.me/918460209025?text=Hello%20Shree%20Maruti%20Nandan%20Properties,%20I%20would%20like%20to%20enquire%20about%20properties."
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-4 p-5 bg-white rounded-2xl border border-gray-200/80 shadow-sm hover:border-emerald hover:shadow-card-hover transition-all group"
@@ -101,7 +101,7 @@ export default function ContactPage() {
               <div className="mb-4">
                 <img
                   src="/images/logo-white.png"
-                  alt="Indra Properties & Enterprises - For Your Generation"
+                  alt="Shree Maruti Nandan Properties"
                   className="h-8 sm:h-9 w-auto max-h-9 object-contain"
                 />
               </div>
@@ -172,7 +172,7 @@ export default function ContactPage() {
                   Enquiry Received
                 </h3>
                 <p className="text-xs sm:text-sm text-gray-500 max-w-md mx-auto leading-relaxed">
-                  Thank you for reaching out to Indra Properties &amp; Enterprises. A property consultant will call you at{' '}
+                  Thank you for reaching out to Shree Maruti Nandan Properties. A property consultant will call you at{' '}
                   <strong className="text-charcoal">{formData.phone || 'your number'}</strong> to discuss your requirement.
                 </p>
                 <div className="pt-4">
@@ -303,7 +303,7 @@ export default function ContactPage() {
                 Interactive Map
               </span>
               <h3 className="font-display font-bold text-2xl text-charcoal mt-2">
-                Find Indra Properties &amp; Enterprises
+                Find Shree Maruti Nandan Properties
               </h3>
               <p className="text-xs sm:text-sm text-gray-500 mt-0.5">
                 Near Bhoor Chauraha / Transport Nagar, Bulandshahr, Uttar Pradesh
@@ -323,7 +323,7 @@ export default function ContactPage() {
           {/* OpenStreetMap iframe */}
           <div className="relative w-full h-[360px] sm:h-[420px] rounded-2xl overflow-hidden border border-gray-200">
             <iframe
-              title="Indra Properties & Enterprises Location Map"
+              title="Shree Maruti Nandan Properties Location Map"
               width="100%"
               height="100%"
               frameBorder="0"

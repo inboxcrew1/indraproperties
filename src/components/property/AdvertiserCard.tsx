@@ -20,7 +20,7 @@ export default function AdvertiserCard({ advertiser, propertyId, propertyTitle }
   const isVerified = advertiser.verificationStatus === 'verified'
   const cleanPhone = advertiser.phone ? advertiser.phone.replace(/[^0-9]/g, '') : '8460209025'
   const whatsappUrl = `https://wa.me/91${cleanPhone}?text=${encodeURIComponent(
-    `Hello, I saw your listing for "${propertyTitle}" (ID: ${propertyId}) with Indra Properties & Enterprises and would like to consult.`
+    `Hello, I saw your listing for "${propertyTitle}" (ID: ${propertyId}) with Shree Maruti Nandan Properties and would like to consult.`
   )}`
 
   return (
@@ -116,7 +116,7 @@ export default function AdvertiserCard({ advertiser, propertyId, propertyTitle }
 
         {/* Safety Note */}
         <p className="text-[11px] text-gray-400 text-center mt-5 leading-normal">
-          Indra Properties &amp; Enterprises advises verifying all physical registry documentation prior to making property transactions.
+          Shree Maruti Nandan Properties advises verifying all physical registry documentation prior to making property transactions.
         </p>
       </div>
 

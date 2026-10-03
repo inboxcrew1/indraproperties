@@ -12,7 +12,7 @@ export default function ContactCTASection() {
         <div className="max-w-3xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/15 text-emerald-light text-xs font-semibold uppercase tracking-wider mb-6">
             <Building2 size={13} />
-            <span>Indra Properties &amp; Enterprises &bull; Bulandshahr</span>
+            <span>Shree Maruti Nandan Properties &bull; Bulandshahr</span>
           </div>
 
           <h2 className="font-display text-3xl sm:text-5xl font-bold leading-tight mb-6 text-balance">
@@ -20,7 +20,7 @@ export default function ContactCTASection() {
           </h2>
 
           <p className="text-gray-300 text-base sm:text-lg mb-10 font-light max-w-2xl mx-auto leading-relaxed">
-            Talk to Indra Properties &amp; Enterprises for residential, commercial, agricultural and rental property requirements in Bulandshahr and surrounding markets.
+            Talk to Shree Maruti Nandan Properties for residential, commercial, agricultural and rental property requirements in Bulandshahr and surrounding markets.
           </p>
 
           {/* Prompt 90 Buttons: 'Call +91 8460209025', 'Explore Properties', 'Send Enquiry' */}

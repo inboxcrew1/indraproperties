@@ -20,7 +20,7 @@ import {
 } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Real Estate Services | Indra Properties & Enterprises',
+  title: 'Real Estate Services | Shree Maruti Nandan Properties',
   description:
     'Comprehensive real estate consultancy services across Bulandshahr and NCR. Property buying, selling, residential, commercial, agricultural land, plots, and leasing assistance.',
 }
@@ -173,7 +173,7 @@ export default function ServicesPage() {
             Our Property Services
           </h1>
           <p className="text-gray-600 text-sm sm:text-base mt-4 leading-relaxed font-light">
-            Indra Properties &amp; Enterprises offers dedicated, personal consultation across 
+            Shree Maruti Nandan Properties offers dedicated, personal consultation across 
             residential, commercial, plotted, and agricultural real estate.
           </p>
         </div>
@@ -240,7 +240,7 @@ export default function ServicesPage() {
               Need Personal Guidance?
             </span>
             <h3 className="font-display text-2xl sm:text-3xl font-bold">
-              Consult Indra Properties &amp; Enterprises
+              Consult Shree Maruti Nandan Properties
             </h3>
             <p className="text-gray-300 text-xs sm:text-sm mt-1 max-w-xl font-light">
               Visit our office near Bhoor Chauraha, Bulandshahr, or speak directly with our team for honest property guidance.

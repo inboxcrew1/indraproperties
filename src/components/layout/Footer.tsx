@@ -27,7 +27,7 @@ const footerLinks = {
     { label: 'Gurugram', href: '/property-in/gurugram' },
   ],
   company: [
-    { label: 'About Indra Properties', href: '/about' },
+    { label: 'About Shree Maruti Nandan Properties', href: '/about' },
     { label: 'Our Services', href: '/services' },
     { label: 'Agency Profile', href: '/about#agency' },
     { label: 'List Your Property', href: '/post-property' },
@@ -57,7 +57,7 @@ export default function Footer() {
                 Your Trusted Real Estate Partner
               </span>
               <h3 className="font-display text-2xl font-bold text-white">
-                Indra Properties &amp; Enterprises
+                Shree Maruti Nandan Properties
               </h3>
               <p className="text-gray-400 text-xs sm:text-sm mt-1 max-w-xl">
                 Professional real estate agency and property consultancy offering expert assistance across residential, commercial and agricultural properties in Bulandshahr and surrounding NCR regions.
@@ -73,7 +73,7 @@ export default function Footer() {
                 <span>+91 8460209025</span>
               </a>
               <a
-                href="https://wa.me/918460209025?text=Hello%20Indra%20Properties%20%26%20Enterprises,%20I%20would%20like%20to%20consult%20regarding%20property."
+                href="https://wa.me/918460209025?text=Hello%20Shree%20Maruti%20Nandan%20Properties,%20I%20would%20like%20to%20consult%20regarding%20property."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-emerald hover:bg-emerald-light text-white rounded-xl text-xs sm:text-sm font-bold transition-all shadow-sm"
@@ -92,10 +92,10 @@ export default function Footer() {
           {/* Brand & Address Column */}
           <div className="col-span-2 md:col-span-3 lg:col-span-2">
             {/* Brand Logo */}
-            <Link href="/" className="inline-block mb-4 group" aria-label="Indra Properties & Enterprises Home">
+            <Link href="/" className="inline-block mb-4 group" aria-label="Shree Maruti Nandan Properties Home">
               <img
                 src="/images/logo-white.png"
-                alt="Indra Properties & Enterprises - For Your Generation"
+                alt="Shree Maruti Nandan Properties"
                 className="h-9 sm:h-10 w-auto max-h-10 object-contain transition-opacity duration-200 group-hover:opacity-90"
               />
             </Link>
@@ -220,7 +220,7 @@ export default function Footer() {
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-5">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-400">
             <p>
-              &copy; {currentYear} Indra Properties &amp; Enterprises. All rights reserved.
+              &copy; {currentYear} Shree Maruti Nandan Properties. All rights reserved.
             </p>
             <div className="flex flex-wrap items-center gap-4 text-xs">
               <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>

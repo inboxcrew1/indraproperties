@@ -12,7 +12,7 @@ export default function MyListingsPage() {
 
   useEffect(() => {
     try {
-      const stored = JSON.parse(localStorage.getItem('indra_custom_properties') || '[]')
+      const stored = JSON.parse(localStorage.getItem('smnp_custom_properties') || '[]')
       // Combine stored custom properties with first 2 demo properties belonging to user
       const defaults = properties.slice(0, 2)
       setMyProperties([...stored, ...defaults])
@@ -25,9 +25,9 @@ export default function MyListingsPage() {
     const updated = myProperties.filter(p => p.id !== id)
     setMyProperties(updated)
     try {
-      const stored = JSON.parse(localStorage.getItem('indra_custom_properties') || '[]')
+      const stored = JSON.parse(localStorage.getItem('smnp_custom_properties') || '[]')
       localStorage.setItem(
-        'indra_custom_properties',
+        'smnp_custom_properties',
         JSON.stringify(stored.filter((p: Property) => p.id !== id))
       )
     } catch (e) {

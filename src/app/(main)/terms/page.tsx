@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Terms & Conditions | Indra Properties & Enterprises',
-  description: 'Terms of service, listing guidelines, and advertiser responsibilities on Indra Properties & Enterprises.',
+  title: 'Terms & Conditions | Shree Maruti Nandan Properties',
+  description: 'Terms of service, listing guidelines, and advertiser responsibilities on Shree Maruti Nandan Properties.',
 }
 
 export default function TermsPage() {
@@ -20,14 +20,14 @@ export default function TermsPage() {
           <section>
             <h2 className="font-semibold text-charcoal text-base mb-2">1. Nature of Platform</h2>
             <p>
-              Indra Properties & Enterprises operates exclusively as an online property technology discovery and advertising marketplace. Indra Properties & Enterprises does not act as a real estate broker, lender, title insurer, or sub-registrar authority.
+              Shree Maruti Nandan Properties operates exclusively as an online property technology discovery and advertising marketplace. Shree Maruti Nandan Properties does not act as a real estate broker, lender, title insurer, or sub-registrar authority.
             </p>
           </section>
 
           <section>
             <h2 className="font-semibold text-charcoal text-base mb-2">2. Advertiser Accuracy &amp; Verification</h2>
             <p>
-              Property owners, brokers, and builders listing assets on Indra Properties & Enterprises covenant that all dimensional values (Gaj, Sq Ft, Acres), pricing figures, facing directions, and ownership deeds are truthful and lawfully registered. Fabricated claims or misleading photographs are grounds for immediate listing suspension.
+              Property owners, brokers, and builders listing assets on Shree Maruti Nandan Properties covenant that all dimensional values (Gaj, Sq Ft, Acres), pricing figures, facing directions, and ownership deeds are truthful and lawfully registered. Fabricated claims or misleading photographs are grounds for immediate listing suspension.
             </p>
           </section>
 

@@ -4,7 +4,7 @@ import { properties } from '@/lib/data/properties'
 import PropertySearchResults from '@/components/search/PropertySearchResults'
 
 export const metadata: Metadata = {
-  title: 'Plots & Land for Sale in India | Residential, Agricultural, Farm | Indra Properties & Enterprises',
+  title: 'Plots & Land for Sale in India | Residential, Agricultural, Farm | Shree Maruti Nandan Properties',
   description: 'Search residential plots in Bulandshahr, agricultural farm land, and commercial plots in Greater Noida with measurements in Gaj, Acres, and Sq Ft.',
 }
 

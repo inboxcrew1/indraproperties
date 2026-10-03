@@ -93,7 +93,7 @@ export default function BulandshahrFocus() {
               Looking for land or property in Bulandshahr?
             </span>
             <h3 className="font-display text-xl sm:text-2xl font-bold">
-              Speak Directly with Indra Properties &amp; Enterprises
+              Speak Directly with Shree Maruti Nandan Properties
             </h3>
             <p className="text-gray-300 text-xs sm:text-sm mt-1">
               Visit our office near Bhoor Chauraha or schedule an accompanied physical site visit.

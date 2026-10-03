@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { AlertCircle, ShieldAlert, Scale, CheckCircle2 } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Real Estate Disclaimer & Regulatory Notice | Indra Properties & Enterprises',
-  description: 'Legal disclaimer and regulatory disclosure for real estate transactions, RERA compliance, and marketplace listings on Indra Properties & Enterprises.',
+  title: 'Real Estate Disclaimer & Regulatory Notice | Shree Maruti Nandan Properties',
+  description: 'Legal disclaimer and regulatory disclosure for real estate transactions, RERA compliance, and marketplace listings on Shree Maruti Nandan Properties.',
 }
 
 export default function DisclaimerPage() {
@@ -40,7 +40,7 @@ export default function DisclaimerPage() {
           <section>
             <h2 className="font-display text-xl font-bold text-charcoal mb-3">1. Intermediary Status</h2>
             <p className="text-gray-600">
-              Indra Properties & Enterprises operates strictly as an intermediary technology platform under Section 79 of the Information Technology Act, 2000. Indra Properties & Enterprises does not own, build, solicit sales as a principal, or act as an insurer of any real estate property listed on this portal.
+              Shree Maruti Nandan Properties operates strictly as an intermediary technology platform under Section 79 of the Information Technology Act, 2000. Shree Maruti Nandan Properties does not own, build, solicit sales as a principal, or act as an insurer of any real estate property listed on this portal.
             </p>
           </section>
 
@@ -57,14 +57,14 @@ export default function DisclaimerPage() {
           <section>
             <h2 className="font-display text-xl font-bold text-charcoal mb-3">3. Verification Badges &amp; Authenticity</h2>
             <p className="text-gray-600">
-              A “Verified” badge on Indra Properties & Enterprises indicates that the advertiser has completed phone validation and submitted documentary proof (such as registry copies, utility bills, or RERA certificates) matching the basic specifications of the listing. While Indra Properties & Enterprises performs diligence checks, the badge does not substitute for a professional legal title investigation by a qualified advocate.
+              A “Verified” badge on Shree Maruti Nandan Properties indicates that the advertiser has completed phone validation and submitted documentary proof (such as registry copies, utility bills, or RERA certificates) matching the basic specifications of the listing. While Shree Maruti Nandan Properties performs diligence checks, the badge does not substitute for a professional legal title investigation by a qualified advocate.
             </p>
           </section>
 
           <section>
             <h2 className="font-display text-xl font-bold text-charcoal mb-3">4. Pricing, Dimensions &amp; Financial Estimates</h2>
             <p className="text-gray-600 mb-3">
-              Listing prices, square footage, Gaj, frontage, and road dimensions are provided directly by listing owners and developers. Indra Properties & Enterprises endeavors to maintain high data fidelity, but actual transaction prices remain subject to bilateral negotiation between buyer and seller.
+              Listing prices, square footage, Gaj, frontage, and road dimensions are provided directly by listing owners and developers. Shree Maruti Nandan Properties endeavors to maintain high data fidelity, but actual transaction prices remain subject to bilateral negotiation between buyer and seller.
             </p>
             <p className="text-gray-600">
               Calculators (EMI estimates, Gaj to Sq Ft conversions, and affordability projections) are provided solely for indicative simulation purposes and do not represent formal bank sanctions or loan offers.

@@ -5,7 +5,7 @@ const steps = [
     step: '01',
     title: 'Tell Us What You Need',
     description:
-      'Share your property requirement — residential plot, house, commercial shop or agricultural land, along with preferred budget and locality.',
+      'Share your property requirement (residential plot, house, commercial shop or agricultural land), along with preferred budget and locality.',
     icon: MessageSquareText,
   },
   {
@@ -19,7 +19,7 @@ const steps = [
     step: '03',
     title: 'Shortlist & Visit',
     description:
-      'Select promising properties and schedule accompanied physical site visits coordinated directly with Indra Properties & Enterprises.',
+      'Select promising properties and schedule accompanied physical site visits coordinated directly with Shree Maruti Nandan Properties.',
     icon: MapPinCheck,
   },
   {

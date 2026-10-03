@@ -69,7 +69,7 @@ export default function WhyUsSection() {
             Our Agency Commitment
           </span>
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-charcoal mt-3">
-            Why Clients Choose Indra Properties &amp; Enterprises
+            Why Clients Choose Shree Maruti Nandan Properties
           </h2>
           <p className="text-gray-600 text-sm sm:text-base mt-2 font-normal">
             Professional guidance built on local market knowledge, genuine options, and transparent consultation.

@@ -17,14 +17,14 @@ export default function PropertyDetailActions({ property }: PropertyDetailAction
   const handleSave = () => {
     setIsSaved(!isSaved)
     try {
-      const stored = JSON.parse(localStorage.getItem('indra_saved') || localStorage.getItem('indra_saved') || '[]')
+      const stored = JSON.parse(localStorage.getItem('smnp_saved') || localStorage.getItem('smnp_saved') || '[]')
       if (!isSaved) {
         if (!stored.includes(property.id)) stored.push(property.id)
       } else {
         const idx = stored.indexOf(property.id)
         if (idx !== -1) stored.splice(idx, 1)
       }
-      localStorage.setItem('indra_saved', JSON.stringify(stored))
+      localStorage.setItem('smnp_saved', JSON.stringify(stored))
     } catch (e) {
       console.error(e)
     }
@@ -32,7 +32,7 @@ export default function PropertyDetailActions({ property }: PropertyDetailAction
 
   const handleCompare = () => {
     try {
-      const stored = JSON.parse(localStorage.getItem('indra_compare') || localStorage.getItem('indra_compare') || '[]')
+      const stored = JSON.parse(localStorage.getItem('smnp_compare') || localStorage.getItem('smnp_compare') || '[]')
       if (!compared) {
         if (!stored.includes(property.id) && stored.length < 4) {
           stored.push(property.id)
@@ -43,13 +43,13 @@ export default function PropertyDetailActions({ property }: PropertyDetailAction
         if (idx !== -1) stored.splice(idx, 1)
         setCompared(false)
       }
-      localStorage.setItem('indra_compare', JSON.stringify(stored))
+      localStorage.setItem('smnp_compare', JSON.stringify(stored))
     } catch (e) {
       console.error(e)
     }
   }
 
-  const currentUrl = typeof window !== 'undefined' ? window.location.href : `https://indraproperties.com/properties/${property.slug}`
+  const currentUrl = typeof window !== 'undefined' ? window.location.href : `https://shreemarutinandanproperties.com/properties/${property.slug}`
 
   return (
     <>

@@ -18,11 +18,11 @@ export default function LocalExpertise() {
               </h2>
 
               <p className="text-gray-600 text-sm sm:text-base leading-relaxed font-light">
-                Indra Properties &amp; Enterprises provides hands-on local assistance for clients looking to buy, sell, rent or lease property in Bulandshahr and surrounding markets.
+                Shree Maruti Nandan Properties provides hands-on local assistance for clients looking to buy, sell, rent or lease property in Bulandshahr and surrounding markets.
               </p>
 
               <p className="text-gray-600 text-sm sm:text-base leading-relaxed font-light">
-                Our team understands the on-ground ground reality — from connectivity near Bhoor Chauraha and Transport Nagar to upcoming infrastructure along the NH-34 / NH-58 corridors, circle rates across localities, and clear documentation. You receive genuine, factual guidance without inflated promises.
+                Our team understands the on-ground ground reality: from connectivity near Bhoor Chauraha and Transport Nagar to upcoming infrastructure along the NH-34 / NH-58 corridors, circle rates across localities, and clear documentation. You receive genuine, factual guidance without inflated promises.
               </p>
 
               <div className="pt-3 flex flex-wrap items-center gap-4">
@@ -35,7 +35,7 @@ export default function LocalExpertise() {
                 </a>
 
                 <a
-                  href="https://wa.me/918460209025?text=Hello%20Indra%20Properties%20%26%20Enterprises,%20I%20would%20like%20local%20property%20consultation%20in%20Bulandshahr."
+                  href="https://wa.me/918460209025?text=Hello%20Shree%20Maruti%20Nandan%20Properties,%20I%20would%20like%20local%20property%20consultation%20in%20Bulandshahr."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-6 py-3 border border-gray-300 hover:border-emerald text-charcoal hover:text-emerald rounded-xl text-xs sm:text-sm font-semibold transition-all"

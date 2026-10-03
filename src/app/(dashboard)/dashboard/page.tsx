@@ -21,7 +21,7 @@ export default function DashboardPage() {
 
   useEffect(() => {
     try {
-      const stored = JSON.parse(localStorage.getItem('indra_custom_properties') || '[]')
+      const stored = JSON.parse(localStorage.getItem('smnp_custom_properties') || '[]')
       setCustomListingsCount(2 + stored.length)
     } catch {
       setCustomListingsCount(2)
