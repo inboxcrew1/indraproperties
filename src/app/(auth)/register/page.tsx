@@ -35,9 +35,9 @@ export default function RegisterPage() {
         <div className="text-center mb-8">
           <Link href="/" className="inline-flex items-center gap-2 mb-4 group" aria-label="Shree Maruti Nandan Properties Home">
             <img
-              src="/images/logo.png"
+              src="/images/shree-maruti-nandan-properties-logo.png?v=2"
               alt="Shree Maruti Nandan Properties"
-              className="h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
+              className="h-14 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
             />
           </Link>
           <h1 className="font-display text-2xl font-bold text-charcoal">

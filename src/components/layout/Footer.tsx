@@ -94,9 +94,9 @@ export default function Footer() {
             {/* Brand Logo */}
             <Link href="/" className="inline-block mb-4 group" aria-label="Shree Maruti Nandan Properties Home">
               <img
-                src="/images/logo-white.png"
+                src="/images/shree-maruti-nandan-properties-white.png?v=2"
                 alt="Shree Maruti Nandan Properties"
-                className="h-9 sm:h-10 w-auto max-h-10 object-contain transition-opacity duration-200 group-hover:opacity-90"
+                className="h-10 sm:h-11 w-auto max-h-12 object-contain transition-opacity duration-200 group-hover:opacity-90"
               />
             </Link>
 

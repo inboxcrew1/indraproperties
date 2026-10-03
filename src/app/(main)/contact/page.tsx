@@ -100,9 +100,9 @@ export default function ContactPage() {
             <div>
               <div className="mb-4">
                 <img
-                  src="/images/logo-white.png"
+                  src="/images/shree-maruti-nandan-properties-white.png?v=2"
                   alt="Shree Maruti Nandan Properties"
-                  className="h-8 sm:h-9 w-auto max-h-9 object-contain"
+                  className="h-9 sm:h-10 w-auto max-h-10 object-contain"
                 />
               </div>
 

@@ -32,12 +32,12 @@ export default function Header() {
       >
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-13 sm:h-14">
-            {/* Official Transparent Brand Logo */}
+            {/* Official Brand Logo */}
             <Link href="/" className="flex items-center flex-shrink-0 group" aria-label="Shree Maruti Nandan Properties Home">
               <img
-                src="/images/logo.png"
+                src="/images/shree-maruti-nandan-properties-logo.png?v=2"
                 alt="Shree Maruti Nandan Properties"
-                className="h-8 sm:h-9 md:h-[38px] w-auto max-h-10 object-contain transition-transform duration-200 group-hover:scale-105"
+                className="h-9 sm:h-10 md:h-[42px] w-auto max-h-12 object-contain transition-transform duration-200 group-hover:scale-105"
               />
             </Link>
 
@@ -132,7 +132,7 @@ export default function Header() {
                 aria-label="Shree Maruti Nandan Properties Home"
               >
                 <img
-                  src="/images/logo.png"
+                  src="/images/shree-maruti-nandan-properties-logo.png?v=2"
                   alt="Shree Maruti Nandan Properties"
                   className="h-8 sm:h-9 w-auto max-h-9 object-contain"
                 />
