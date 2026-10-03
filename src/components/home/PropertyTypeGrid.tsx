@@ -96,16 +96,16 @@ const propertyCategories = [
 
 export default function PropertyTypeGrid() {
   return (
-    <section className="py-16 sm:py-24 bg-white border-y border-gray-100">
+    <section className="py-16 sm:py-24 bg-[#101014] border-y border-white/10">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="text-xs font-bold uppercase tracking-wider text-emerald bg-emerald/10 px-3 py-1 rounded-full">
+          <span className="text-xs font-bold uppercase tracking-wider text-[#F5C542] bg-[#F5C542]/10 border border-[#F5C542]/20 px-3 py-1 rounded-full">
             All Property Sectors
           </span>
-          <h2 className="font-display text-3xl sm:text-4xl font-bold text-charcoal mt-3">
+          <h2 className="font-display text-3xl sm:text-4xl font-bold shine-gold-text mt-3">
             Explore by Property Category
           </h2>
-          <p className="text-gray-600 text-sm sm:text-base mt-2 font-normal">
+          <p className="text-zinc-400 text-sm sm:text-base mt-2 font-normal">
             From residential plots in Bulandshahr to commercial showrooms and agricultural land parcels, find verified options tailored to your requirement.
           </p>
         </div>
@@ -117,27 +117,27 @@ export default function PropertyTypeGrid() {
               <Link
                 key={cat.title}
                 href={cat.href}
-                className="group relative bg-warm-white hover:bg-white rounded-2xl border border-gray-200/80 hover:border-emerald/40 p-6 transition-all duration-300 shadow-sm hover:shadow-card-hover flex flex-col justify-between"
+                className="group relative bg-[#131317] hover:bg-[#181820] rounded-2xl border border-white/10 hover:border-[#F5C542]/40 p-6 transition-all duration-300 shadow-sm hover:shadow-card-hover flex flex-col justify-between"
               >
                 <div>
                   <div className="flex items-center justify-between mb-4">
-                    <div className="w-12 h-12 rounded-xl bg-emerald/10 text-emerald group-hover:bg-emerald group-hover:text-white transition-colors duration-200 flex items-center justify-center">
+                    <div className="w-12 h-12 rounded-xl bg-[#F5C542]/10 text-[#F5C542] group-hover:bg-[#F5C542] group-hover:text-black transition-colors duration-200 flex items-center justify-center">
                       <Icon size={22} />
                     </div>
-                    <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md bg-gray-100 text-gray-600 group-hover:bg-emerald/10 group-hover:text-emerald transition-colors">
+                    <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md bg-white/5 text-zinc-300 group-hover:bg-[#F5C542]/15 group-hover:text-[#F5C542] transition-colors border border-white/5">
                       {cat.tag}
                     </span>
                   </div>
 
-                  <h3 className="font-display font-bold text-lg text-charcoal group-hover:text-emerald transition-colors mb-1.5">
+                  <h3 className="font-display font-bold text-lg text-zinc-100 group-hover:text-[#F5C542] transition-colors mb-1.5">
                     {cat.title}
                   </h3>
-                  <p className="text-xs text-gray-500 leading-relaxed font-light">
+                  <p className="text-xs text-zinc-400 leading-relaxed font-light">
                     {cat.description}
                   </p>
                 </div>
 
-                <div className="mt-5 pt-3 border-t border-gray-100 flex items-center justify-between text-xs font-semibold text-emerald">
+                <div className="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-xs font-semibold text-[#F5C542]">
                   <span>Browse Listings</span>
                   <ArrowRight
                     size={14}

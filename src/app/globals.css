@@ -2,62 +2,63 @@
 @import "tailwindcss";
 
 @theme {
-  --color-charcoal: #1C1C1E;
-  --color-charcoal-800: #2D2D30;
-  --color-charcoal-600: #3F3F42;
-  --color-charcoal-400: #6B6B6E;
+  --color-charcoal: #F4F4F6;
+  --color-charcoal-800: #E4E4E7;
+  --color-charcoal-600: #A1A1AA;
+  --color-charcoal-400: #71717A;
 
-  --color-emerald: #1A6B4A;
-  --color-emerald-light: #2D8A61;
-  --color-emerald-dark: #145537;
-  --color-emerald-50: #F0FDF4;
-  --color-emerald-100: #DCFCE7;
+  --color-emerald: #F5C542;
+  --color-emerald-light: #FFF0A8;
+  --color-emerald-dark: #D4AF37;
+  --color-emerald-50: rgba(245, 197, 66, 0.12);
+  --color-emerald-100: rgba(245, 197, 66, 0.22);
 
-  --color-gold: #C9A84C;
-  --color-gold-light: #E8C96E;
-  --color-gold-dark: #A8872E;
-  --color-gold-50: #FFFBEB;
-  --color-gold-100: #FEF3C7;
+  --color-gold: #F5C542;
+  --color-gold-light: #FFF0A8;
+  --color-gold-dark: #C99726;
+  --color-gold-50: rgba(245, 197, 66, 0.10);
+  --color-gold-100: rgba(245, 197, 66, 0.20);
 
-  --color-slate: #6B7280;
-  --color-slate-light: #9CA3AF;
+  --color-slate: #94A3B8;
+  --color-slate-light: #64748B;
 
-  --color-warm-white: #FAFAF8;
-  --color-off-white: #F5F4F0;
+  --color-warm-white: #0B0B0E;
+  --color-off-white: #131317;
 
   --font-sans: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-display: 'Playfair Display', Georgia, serif;
 }
 
 /* ============================================================
-   GHARDHUNDO | PREMIUM DESIGN SYSTEM
+   SHREE MARUTI NANDAN PROPERTIES | LUXURY DARK & GOLD DESIGN SYSTEM
    Indian Real Estate Marketplace
    ============================================================ */
 
 /* ── Custom Properties ──────────────────────────────────────── */
 :root {
-  /* Brand Colors */
-  --charcoal:        #1C1C1E;
-  --charcoal-800:    #2D2D30;
-  --warm-white:      #FAFAF8;
-  --off-white:       #F5F4F0;
-  --emerald:         #1A6B4A;
-  --emerald-light:   #2D8A61;
-  --emerald-dark:    #145537;
-  --gold:            #C9A84C;
-  --gold-light:      #E8C96E;
-  --slate:           #6B7280;
-  --slate-light:     #9CA3AF;
+  /* Brand Colors - Dark & Pure Shine Gold */
+  --charcoal:        #F4F4F6;
+  --charcoal-800:    #E4E4E7;
+  --warm-white:      #0B0B0E;
+  --off-white:       #131317;
+  --emerald:         #F5C542;
+  --emerald-light:   #FFF0A8;
+  --emerald-dark:    #D4AF37;
+  --gold:            #F5C542;
+  --gold-light:      #FFF0A8;
+  --gold-dark:       #C99726;
+  --slate:           #94A3B8;
+  --slate-light:     #64748B;
 
   /* Borders */
-  --border-light:    #E5E7EB;
-  --border-medium:   #D1D5DB;
+  --border-light:    rgba(255, 255, 255, 0.08);
+  --border-medium:   rgba(245, 197, 66, 0.25);
 
-  /* Shadows */
-  --shadow-sm:       0 1px 3px rgba(0, 0, 0, 0.08);
-  --shadow-md:       0 4px 16px rgba(0, 0, 0, 0.10);
-  --shadow-lg:       0 8px 32px rgba(0, 0, 0, 0.12);
-  --shadow-xl:       0 16px 48px rgba(0, 0, 0, 0.14);
+  /* Shadows with golden aura */
+  --shadow-sm:       0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md:       0 6px 20px rgba(0, 0, 0, 0.5), 0 0 15px rgba(245, 197, 66, 0.08);
+  --shadow-lg:       0 12px 35px rgba(0, 0, 0, 0.6), 0 0 25px rgba(245, 197, 66, 0.12);
+  --shadow-xl:       0 20px 50px rgba(0, 0, 0, 0.7), 0 0 35px rgba(245, 197, 66, 0.15);
 
   /* Border Radii */
   --radius-sm:       6px;
@@ -76,12 +77,13 @@
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
+  color-scheme: dark;
 }
 
 body {
   font-family: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
-  background: var(--warm-white);
-  color: var(--charcoal);
+  background: #0B0B0E;
+  color: #E4E4E7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -89,10 +91,38 @@ body {
   min-height: 100dvh;
 }
 
+/* ── Pure Shine Golden Headings & Typography ── */
+h1, h2, h3, h4, h5, h6,
+.font-display,
+.section-heading {
+  color: #F5C542;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Ensure headings with Tailwind charcoal/gray classes also shine in pure gold across all 37 pages */
+h1.text-charcoal, h2.text-charcoal, h3.text-charcoal, h4.text-charcoal, h5.text-charcoal, h6.text-charcoal,
+h1.text-gray-900, h2.text-gray-900, h3.text-gray-900, h4.text-gray-900,
+h1.text-gray-800, h2.text-gray-800, h3.text-gray-800, h4.text-gray-800 {
+  color: #F5C542 !important;
+}
+
+.shine-gold-text {
+  background: linear-gradient(135deg, #FFF6C7 0%, #F5C542 25%, #E5B842 50%, #C99726 75%, #FDE047 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  display: inline-block;
+  filter: drop-shadow(0 2px 10px rgba(245, 197, 66, 0.3));
+}
+
+.text-gold-shine {
+  color: #F5C542 !important;
+  text-shadow: 0 0 20px rgba(245, 197, 66, 0.45);
+}
+
 /* ── Selection Color ─────────────────────────────────────────── */
 ::selection {
-  background-color: rgba(26, 107, 74, 0.18);
-  color: var(--emerald-dark);
+  background-color: rgba(245, 197, 66, 0.25);
+  color: #FFF3B0;
 }
 
 /* ── Scrollbar ──────────────────────────────────────────────── */
@@ -101,15 +131,15 @@ body {
   height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--off-white);
+  background: #0B0B0E;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--border-medium);
+  background: #27272A;
   border-radius: 99px;
   transition: background 0.2s;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--slate-light);
+  background: #F5C542;
 }
 
 /* ── Typography Utilities ───────────────────────────────────── */
@@ -127,22 +157,23 @@ body {
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
-  background-color: var(--emerald);
-  color: #ffffff;
+  background: linear-gradient(135deg, #FDE68A 0%, #F5C542 45%, #D4AF37 100%);
+  color: #0C0C0E;
   font-family: 'Inter', sans-serif;
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 700;
   border-radius: var(--radius-lg);
   border: none;
   cursor: pointer;
-  transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 18px rgba(245, 197, 66, 0.35);
   text-decoration: none;
   white-space: nowrap;
   line-height: 1;
 }
 .btn-primary:hover {
-  background-color: var(--emerald-dark);
-  box-shadow: 0 4px 14px rgba(26, 107, 74, 0.35);
+  background: linear-gradient(135deg, #FFF3B0 0%, #FAD058 45%, #E5B842 100%);
+  box-shadow: 0 6px 26px rgba(245, 197, 66, 0.55);
   transform: translateY(-1px);
 }
 .btn-primary:active {
@@ -155,21 +186,22 @@ body {
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
-  background-color: #ffffff;
-  color: var(--charcoal);
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #F5C542;
   font-family: 'Inter', sans-serif;
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: var(--radius-lg);
-  border: 1.5px solid var(--charcoal);
+  border: 1px solid rgba(245, 197, 66, 0.4);
   cursor: pointer;
-  transition: background-color 0.2s ease, transform 0.15s ease;
+  transition: all 0.2s ease;
   text-decoration: none;
   white-space: nowrap;
   line-height: 1;
 }
 .btn-secondary:hover {
-  background-color: var(--off-white);
+  background-color: rgba(245, 197, 66, 0.12);
+  border-color: #F5C542;
   transform: translateY(-1px);
 }
 .btn-secondary:active {
@@ -182,20 +214,20 @@ body {
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
   background-color: transparent;
-  color: var(--emerald);
+  color: #F5C542;
   font-family: 'Inter', sans-serif;
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: var(--radius-lg);
   border: none;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: all 0.2s ease;
   text-decoration: none;
   white-space: nowrap;
   line-height: 1;
 }
 .btn-ghost:hover {
-  background-color: rgba(26, 107, 74, 0.08);
+  background-color: rgba(245, 197, 66, 0.12);
 }
 
 .btn-gold {
@@ -203,22 +235,23 @@ body {
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
-  background-color: var(--gold);
-  color: var(--charcoal);
+  background: linear-gradient(135deg, #FFF3B0 0%, #F5C542 45%, #D4AF37 100%);
+  color: #0C0C0E;
   font-family: 'Inter', sans-serif;
   font-size: 0.875rem;
-  font-weight: 600;
+  font-weight: 700;
   border-radius: var(--radius-lg);
   border: none;
   cursor: pointer;
-  transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 18px rgba(245, 197, 66, 0.40);
   text-decoration: none;
   white-space: nowrap;
   line-height: 1;
 }
 .btn-gold:hover {
-  background-color: #A8872E;
-  box-shadow: 0 4px 14px rgba(201, 168, 76, 0.40);
+  background: linear-gradient(135deg, #FFF8D0 0%, #FAD058 45%, #E5B842 100%);
+  box-shadow: 0 6px 26px rgba(245, 197, 66, 0.60);
   transform: translateY(-1px);
 }
 .btn-gold:active {
@@ -228,25 +261,25 @@ body {
 
 /* ── Card System ─────────────────────────────────────────────── */
 .card {
-  background-color: #ffffff;
-  border: 1px solid var(--border-light);
-  box-shadow: var(--shadow-sm);
+  background-color: #131317;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
   border-radius: var(--radius-lg);
   overflow: hidden;
 }
 
 .card-hover {
-  background-color: #ffffff;
-  border: 1px solid var(--border-light);
-  box-shadow: var(--shadow-sm);
+  background-color: #131317;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
   border-radius: var(--radius-lg);
   overflow: hidden;
-  transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
+  transition: all 0.25s ease;
 }
 .card-hover:hover {
-  box-shadow: var(--shadow-md);
+  border-color: rgba(245, 197, 66, 0.35);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6), 0 0 15px rgba(245, 197, 66, 0.12);
   transform: translateY(-2px);
-  border-color: var(--border-medium);
 }
 
 /* ── Badge System ────────────────────────────────────────────── */
@@ -255,10 +288,11 @@ body {
   align-items: center;
   gap: 0.25rem;
   padding: 0.125rem 0.5rem;
-  background-color: rgba(26, 107, 74, 0.10);
-  color: var(--emerald);
+  background-color: rgba(245, 197, 66, 0.15);
+  color: #F5C542;
+  border: 1px solid rgba(245, 197, 66, 0.3);
   font-size: 0.6875rem;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: 999px;
   white-space: nowrap;
 }
@@ -268,10 +302,11 @@ body {
   align-items: center;
   gap: 0.25rem;
   padding: 0.125rem 0.5rem;
-  background-color: rgba(201, 168, 76, 0.15);
-  color: #A8872E;
+  background: linear-gradient(135deg, rgba(245, 197, 66, 0.25), rgba(212, 175, 55, 0.1));
+  color: #FFF0A8;
+  border: 1px solid rgba(245, 197, 66, 0.4);
   font-size: 0.6875rem;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: 999px;
   white-space: nowrap;
 }
@@ -281,10 +316,11 @@ body {
   align-items: center;
   gap: 0.25rem;
   padding: 0.125rem 0.5rem;
-  background-color: #EFF6FF;
-  color: #2563EB;
+  background-color: rgba(59, 130, 246, 0.15);
+  color: #93C5FD;
+  border: 1px solid rgba(59, 130, 246, 0.3);
   font-size: 0.6875rem;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: 999px;
   white-space: nowrap;
 }
@@ -294,18 +330,20 @@ body {
   align-items: center;
   gap: 0.25rem;
   padding: 0.125rem 0.5rem;
-  background-color: var(--charcoal);
-  color: #ffffff;
+  background-color: #070709;
+  color: #F5C542;
+  border: 1px solid #F5C542;
   font-size: 0.6875rem;
-  font-weight: 500;
+  font-weight: 700;
   border-radius: 999px;
   white-space: nowrap;
+  box-shadow: 0 0 10px rgba(245, 197, 66, 0.2);
 }
 
 /* ── Skeleton / Loading ──────────────────────────────────────── */
 .skeleton {
   animation: pulse 1.6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-  background-color: #E5E7EB;
+  background-color: #1F1F24;
   border-radius: var(--radius-md);
 }
 
@@ -322,34 +360,34 @@ body {
   width: 100%;
   padding: 0.75rem 1rem;
   border-radius: var(--radius-lg);
-  border: 1px solid #E5E7EB;
-  background-color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background-color: #17171C;
   font-family: 'Inter', sans-serif;
   font-size: 0.875rem;
-  color: var(--charcoal);
+  color: #F4F4F5;
   outline: none;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  transition: all 0.2s ease;
   line-height: 1.5;
 }
 .input-field:focus {
-  border-color: var(--emerald);
-  box-shadow: 0 0 0 3px rgba(26, 107, 74, 0.12);
+  border-color: #F5C542;
+  box-shadow: 0 0 0 3px rgba(245, 197, 66, 0.2);
 }
 .input-field::placeholder {
-  color: var(--slate-light);
+  color: #71717A;
 }
 
 /* ── Section Typography ──────────────────────────────────────── */
 .section-heading {
   font-family: 'Playfair Display', Georgia, serif;
   font-size: 1.875rem;
-  font-weight: 600;
-  color: var(--charcoal);
+  font-weight: 700;
+  color: #F5C542;
   line-height: 1.25;
 }
 
 .section-subheading {
-  color: var(--slate);
+  color: #A1A1AA;
   margin-top: 0.5rem;
   font-size: 1rem;
   line-height: 1.6;
@@ -358,17 +396,17 @@ body {
 /* ── Price Display ───────────────────────────────────────────── */
 .price-display {
   font-family: 'Playfair Display', Georgia, serif;
-  font-weight: 600;
-  color: var(--charcoal);
+  font-weight: 700;
+  color: #F5C542;
   line-height: 1.2;
 }
 
 /* ── Glass Morphism ──────────────────────────────────────────── */
 .glass {
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  background-color: rgba(255, 255, 255, 0.80);
-  border: 1px solid rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background-color: rgba(18, 18, 22, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 /* ── Animations ──────────────────────────────────────────────── */

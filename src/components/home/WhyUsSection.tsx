@@ -62,16 +62,16 @@ const reasons = [
 
 export default function WhyUsSection() {
   return (
-    <section className="py-16 sm:py-24 bg-warm-white border-b border-gray-100">
+    <section className="py-16 sm:py-24 bg-[#101014] border-b border-white/10">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="text-xs font-bold uppercase tracking-wider text-emerald bg-emerald/10 px-3 py-1 rounded-full">
+          <span className="text-xs font-bold uppercase tracking-wider text-[#F5C542] bg-[#F5C542]/10 border border-[#F5C542]/20 px-3 py-1 rounded-full">
             Our Agency Commitment
           </span>
-          <h2 className="font-display text-3xl sm:text-4xl font-bold text-charcoal mt-3">
+          <h2 className="font-display text-3xl sm:text-4xl font-bold shine-gold-text mt-3">
             Why Clients Choose Shree Maruti Nandan Properties
           </h2>
-          <p className="text-gray-600 text-sm sm:text-base mt-2 font-normal">
+          <p className="text-zinc-400 text-sm sm:text-base mt-2 font-normal">
             Professional guidance built on local market knowledge, genuine options, and transparent consultation.
           </p>
         </div>
@@ -82,16 +82,16 @@ export default function WhyUsSection() {
             return (
               <div
                 key={reason.title}
-                className="bg-white rounded-2xl border border-gray-200/80 p-6 shadow-sm hover:shadow-card-hover hover:border-emerald/40 transition-all duration-300 flex flex-col justify-between"
+                className="bg-[#131317] rounded-2xl border border-white/10 p-6 shadow-sm hover:shadow-card-hover hover:border-[#F5C542]/40 transition-all duration-300 flex flex-col justify-between"
               >
                 <div>
-                  <div className="w-12 h-12 rounded-xl bg-emerald/10 text-emerald flex items-center justify-center mb-5">
+                  <div className="w-12 h-12 rounded-xl bg-[#F5C542]/10 text-[#F5C542] flex items-center justify-center mb-5">
                     <Icon size={24} />
                   </div>
-                  <h3 className="font-display font-bold text-lg text-charcoal mb-2.5">
+                  <h3 className="font-display font-bold text-lg text-zinc-100 mb-2.5">
                     {reason.title}
                   </h3>
-                  <p className="text-xs sm:text-sm text-gray-500 leading-relaxed font-light">
+                  <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed font-light">
                     {reason.description}
                   </p>
                 </div>

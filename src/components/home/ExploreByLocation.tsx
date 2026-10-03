@@ -51,24 +51,24 @@ const cityHubs = [
 
 export default function ExploreByLocation() {
   return (
-    <section className="py-16 sm:py-24 bg-white border-b border-gray-100">
+    <section className="py-16 sm:py-24 bg-[#0B0B0E] border-b border-white/10">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12">
           <div>
-            <span className="text-xs font-bold uppercase tracking-wider text-emerald bg-emerald/10 px-3 py-1 rounded-full">
+            <span className="text-xs font-bold uppercase tracking-wider text-[#F5C542] bg-[#F5C542]/10 border border-[#F5C542]/20 px-3 py-1 rounded-full">
               Regional Coverage
             </span>
-            <h2 className="font-display text-3xl sm:text-4xl font-bold text-charcoal mt-3">
+            <h2 className="font-display text-3xl sm:text-4xl font-bold shine-gold-text mt-3">
               Explore Properties by Location
             </h2>
-            <p className="text-gray-600 text-sm sm:text-base mt-2 max-w-xl font-light">
+            <p className="text-zinc-400 text-sm sm:text-base mt-2 max-w-xl font-light">
               Rooted in Bulandshahr with property consultation across key Western Uttar Pradesh and National Capital Region markets.
             </p>
           </div>
 
           <Link
             href="/properties"
-            className="inline-flex items-center gap-2 text-sm font-semibold text-emerald hover:text-emerald-dark transition-colors"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-[#F5C542] hover:text-[#FFF0A8] transition-colors"
           >
             <span>All Properties</span>
             <ArrowRight size={16} />
@@ -82,7 +82,7 @@ export default function ExploreByLocation() {
               key={city.slug}
               href={city.href}
               className={`group relative rounded-2xl overflow-hidden shadow-sm hover:shadow-card-hover transition-all duration-300 flex flex-col justify-end min-h-[300px] border ${
-                city.isPrimary ? 'border-emerald/40 ring-2 ring-emerald/20' : 'border-gray-200'
+                city.isPrimary ? 'border-amber-500/50 ring-2 ring-amber-500/20' : 'border-white/10'
               }`}
             >
               {/* Background Image */}
@@ -92,13 +92,13 @@ export default function ExploreByLocation() {
                   alt={city.name}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-charcoal/95 via-charcoal/50 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/50 to-transparent" />
               </div>
 
               {/* Primary Badge */}
               {city.isPrimary && (
                 <div className="absolute top-3.5 left-3.5 z-10">
-                  <span className="px-2.5 py-1 rounded-full bg-emerald text-white text-[10px] font-bold uppercase tracking-wider shadow">
+                  <span className="px-2.5 py-1 rounded-full bg-gradient-to-r from-[#FFF6C7] via-[#F5C542] to-[#D4AF37] text-black text-[10px] font-bold uppercase tracking-wider shadow">
                     Primary Office
                   </span>
                 </div>
@@ -106,20 +106,20 @@ export default function ExploreByLocation() {
 
               {/* Content */}
               <div className="relative z-10 p-5 text-white">
-                <div className="flex items-center gap-1.5 text-xs text-emerald-light font-medium mb-1">
+                <div className="flex items-center gap-1.5 text-xs text-[#F5C542] font-medium mb-1">
                   <MapPin size={12} />
                   <span>{city.state}</span>
                 </div>
 
-                <h3 className="font-display font-bold text-xl text-white group-hover:text-emerald-light transition-colors mb-1.5">
+                <h3 className="font-display font-bold text-xl text-white group-hover:text-[#F5C542] transition-colors mb-1.5">
                   {city.name}
                 </h3>
 
-                <p className="text-gray-300 text-xs line-clamp-2 font-light leading-relaxed mb-3">
+                <p className="text-zinc-300 text-xs line-clamp-2 font-light leading-relaxed mb-3">
                   {city.description}
                 </p>
 
-                <div className="pt-2 border-t border-white/15 flex items-center justify-between text-xs font-semibold text-white/90 group-hover:text-emerald-light transition-colors">
+                <div className="pt-2 border-t border-white/15 flex items-center justify-between text-xs font-semibold text-zinc-200 group-hover:text-[#F5C542] transition-colors">
                   <span>View Properties</span>
                   <ArrowRight size={13} className="transform group-hover:translate-x-1 transition-transform" />
                 </div>
